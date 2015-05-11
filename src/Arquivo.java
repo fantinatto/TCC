@@ -7,7 +7,7 @@ public class Arquivo {
 	public String nome;
 	ArrayList<String> lista = new ArrayList<String>();
 	
-	
+	//teste update
 	public String getNome() {
 		return nome;
 	}
