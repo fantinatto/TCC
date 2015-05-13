@@ -101,7 +101,7 @@ public class GUI {
 		JButton btnFiltrar = new JButton("Filtrar");
 		btnFiltrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				Arvore ar = new Arvore();
+				Grafo ar = new Grafo();
 				ar.geradorArvores(arq.lista);
 			}
 		});

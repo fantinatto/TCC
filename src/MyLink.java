@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 
-public class MyLink extends Arvore{
+public class MyLink extends Grafo{
 	double capacity;
 	double weight;
 	int id;

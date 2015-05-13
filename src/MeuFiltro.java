@@ -12,15 +12,23 @@ import java.util.TreeMap;
 import org.apache.commons.collections15.keyvalue.MultiKey;
 import org.apache.commons.collections15.map.MultiKeyMap;
 
-
-
 public class MeuFiltro {
 	public ArrayList<String> filtro = new ArrayList<String>();
-	public LinkedList<Regras> RLL;
+	public LinkedList<Regras> RLL; 
+	
 	//indice é o resultado e cada nó da lista é uma condicao
-	//public Map<Integer,Regras> mapaDeRegras = new HashMap<Integer,Regras>();
 	public Map<String,LinkedList<Regras>> mapaDeRegras = new HashMap<String,LinkedList<Regras>>();
-	//public Map<MultiKey<Integer, String>,Regras> MKM = new HashMap<MultiKey<Integer, String>,Regras>();
+	
+	public Map<String, LinkedList<Regras>> getMapaDeRegras() {
+		return mapaDeRegras;
+	}
+
+
+
+	public void setMapaDeRegras(Map<String, LinkedList<Regras>> mapaDeRegras) {
+		this.mapaDeRegras = mapaDeRegras;
+	}
+
 	public TreeMap<Integer,Regras> sorted_map = new TreeMap<Integer,Regras>();
 	public Regras R;
 	
@@ -46,6 +54,7 @@ public class MeuFiltro {
 	}
 	
 	
+	
 	public void geraListaDeRegras(ArrayList<String> lista){
 		int i = 0;	
 		String[] aux, token, token2;	
@@ -61,6 +70,7 @@ public class MeuFiltro {
 			//se já existe add na lista
 			if(mapaDeRegras.containsKey(R.Id)){
 				mapaDeRegras.get(R.Id).add(R);
+				Collections.sort(mapaDeRegras.get(R.Id), new MeuComparador());
 				//RLL = new LinkedList<Regras>();
 				//RLL.addAll(mapaDeRegras.get(R.Id));
 				//RLL.push(R);
@@ -69,22 +79,18 @@ public class MeuFiltro {
 			//caso não exista aloca lista de regras e insere no hashmap :. mapaDeRegras
 			else{
 				RLL = new LinkedList<Regras>();
-				RLL.push(R);
+				RLL.push(R);				
 				mapaDeRegras.put(R.Id, RLL);
 			}
 			
-			//mapaDeRegras.put(i, R);	
-			//sorted_map.put(R.itens, R);										
 			i++;			
-		}								
+		}
 		i++;
 	}
-	
-	
+			
 	public MeuFiltro(ArrayList<String> lista){		
-		geradorDeNos(lista);
+		//geradorDeNos(lista);
 		geraListaDeRegras(lista);
 		
-	
 	}
 }
