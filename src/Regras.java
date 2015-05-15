@@ -1,25 +1,16 @@
-
 public class Regras {
 	public String Id;
-	public String regra;
+	public String[] regra;
 	public double peso;
 	public double confianca;
 	public int itens;
-	
+
 	public String getId() {
 		return Id;
 	}
 
 	public void setId(String id) {
 		Id = id;
-	}
-
-	public String getRegra() {
-		return regra;
-	}
-
-	public void setRegra(String regra) {
-		this.regra = regra;
 	}
 
 	public double getPeso() {
@@ -45,10 +36,8 @@ public class Regras {
 	public void setItens(int itens) {
 		this.itens = itens;
 	}
-	
-	
-	
-	public void insereRegras(String I, String R, double P, double C, int T){
+
+	public void insereRegras(String I, String[] R, double P, double C, int T) {
 		this.Id = I;
 		this.regra = R;
 		this.peso = P;
