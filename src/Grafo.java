@@ -11,7 +11,16 @@ import edu.uci.ics.jung.graph.SparseMultigraph;
 public class Grafo {
 	public SparseMultigraph<String, MyLink> g;
 	// public Map<String,LinkedList<Regras>> regrasFiltradas = new
-	// HashMap<String,LinkedList<Regras>>();
+	public LinkedList<String> regrasFiltradas = new LinkedList<String>();
+	
+	public LinkedList<String> getRegrasFiltradas() {
+		return regrasFiltradas;
+	}
+
+	public void setRegrasFiltradas(LinkedList<String> regrasFiltradas) {
+		this.regrasFiltradas = regrasFiltradas;
+	}
+
 	static int edgeCount = 0;
 	public MeuFiltro mf;
 	String[] regras;
@@ -30,23 +39,30 @@ public class Grafo {
 		while (i < lista.size()) {
 			regras = lista.get(i).regra;
 			// adicionou vertice?
+			
 			if (!addVertices(1, lista.get(i).itens)) {
 				lista.remove(i);
-			} else {
+			} 
+			else {
+				
 				i++;
+				
 			}
-
 		}
 		i = 0;
 		while (i < lista.size()) {
 			int z = 0;
+			String aux = new String(lista.get(i).Id + " <-");
 			System.out.println();
 			while (z < +lista.get(i).regra.length) {
+				aux = aux + " " + lista.get(i).regra[z];
 				System.out.printf(lista.get(i).regra[z]);
 				z++;
 			}
+			regrasFiltradas.add(aux);
 			i++;
 		}
+		
 	}
 
 	// verifica se existe um item dentro do grafo

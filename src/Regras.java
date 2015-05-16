@@ -36,7 +36,8 @@ public class Regras {
 	public void setItens(int itens) {
 		this.itens = itens;
 	}
-
+	
+	
 	public void insereRegras(String I, String[] R, double P, double C, int T) {
 		this.Id = I;
 		this.regra = R;
