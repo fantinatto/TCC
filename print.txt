@@ -1,0 +1,84 @@
+geografia_media <-  artes_media (100.0 , 20.0 )
+
+geografia_media <-  matematica_abaixomedia (100.0 , 20.0 )
+
+geografia_media <-  matematica_acimamedia (100.0 , 20.0 )
+
+geografia_media <-  portugues_abaixomedia (100.0 , 20.0 )
+
+geografia_media <-  filosofia_media (100.0 , 40.0 )
+
+geografia_media <-  história_abaixomedia (100.0 , 40.0 )
+
+geografia_media <-  história_media (100.0 , 60.0 )
+
+geografia_media <-  matematica_media (100.0 , 60.0 )
+
+geografia_media <-  filosofia_abaixomedia (100.0 , 60.0 )
+
+geografia_media <-  portugues_media (100.0 , 80.0 )
+
+geografia_media <-  artes_abaixomedia (100.0 , 80.0 )
+
+artes_abaixomedia <-  matematica_abaixomedia (100.0 , 20.0 )
+
+artes_abaixomedia <-  matematica_acimamedia (100.0 , 20.0 )
+
+artes_abaixomedia <-  portugues_abaixomedia (100.0 , 20.0 )
+
+artes_abaixomedia <-  história_abaixomedia (100.0 , 40.0 )
+
+artes_abaixomedia <-  filosofia_abaixomedia (100.0 , 60.0 )
+
+artes_abaixomedia <-  geografia_media (80.0 , 100.0 )
+
+matematica_acimamedia <-  história_media filosofia_abaixomedia (100.0 , 20.0 )
+
+filosofia_media <-  artes_media (100.0 , 20.0 )
+
+filosofia_media <-  história_media matematica_media (100.0 , 40.0 )
+
+filosofia_abaixomedia <-  matematica_abaixomedia (100.0 , 20.0 )
+
+filosofia_abaixomedia <-  matematica_acimamedia (100.0 , 20.0 )
+
+filosofia_abaixomedia <-  portugues_abaixomedia (100.0 , 20.0 )
+
+filosofia_abaixomedia <-  história_abaixomedia (100.0 , 40.0 )
+
+história_media <-  artes_media (100.0 , 20.0 )
+
+história_media <-  matematica_acimamedia (100.0 , 20.0 )
+
+história_media <-  filosofia_media (100.0 , 40.0 )
+
+história_media <-  matematica_media portugues_media (100.0 , 40.0 )
+
+portugues_media <-  artes_media (100.0 , 20.0 )
+
+portugues_media <-  matematica_abaixomedia (100.0 , 20.0 )
+
+portugues_media <-  matematica_acimamedia (100.0 , 20.0 )
+
+portugues_media <-  filosofia_media (100.0 , 40.0 )
+
+portugues_media <-  história_media (100.0 , 60.0 )
+
+portugues_media <-  geografia_media (80.0 , 100.0 )
+
+matematica_abaixomedia <-  história_abaixomedia portugues_media (100.0 , 20.0 )
+
+portugues_abaixomedia <-  história_abaixomedia matematica_media (100.0 , 20.0 )
+
+história_abaixomedia <-  matematica_abaixomedia (100.0 , 20.0 )
+
+história_abaixomedia <-  portugues_abaixomedia (100.0 , 20.0 )
+
+história_abaixomedia <-  matematica_media filosofia_abaixomedia (100.0 , 20.0 )
+
+matematica_media <-  artes_media (100.0 , 20.0 )
+
+matematica_media <-  portugues_abaixomedia (100.0 , 20.0 )
+
+matematica_media <-  filosofia_media (100.0 , 40.0 )
+

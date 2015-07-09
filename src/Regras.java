@@ -45,5 +45,4 @@ public class Regras {
 		this.confianca = C;
 		this.itens = T;
 	}
-
 }

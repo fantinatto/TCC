@@ -1,4 +1,6 @@
 
+
+
 import java.awt.EventQueue;
 
 import javax.swing.JFileChooser;
@@ -13,8 +15,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JCheckBoxMenuItem;
-import java.awt.Window.Type;
-import java.awt.Dialog.ModalExclusionType;
+
+import javax.swing.JLabel;
 
 public class GUI {
 	private JFrame frmGreentxGeneralizing;
@@ -49,7 +51,7 @@ public class GUI {
 	private void initialize() {
 		frmGreentxGeneralizing = new JFrame();
 		frmGreentxGeneralizing.setTitle("GREEN-tx       Generalizing RulEs Using Taxonomy");
-		frmGreentxGeneralizing.setBounds(100, 100, 1029, 800);
+		frmGreentxGeneralizing.setBounds(100, 100, 1024, 700);
 		frmGreentxGeneralizing.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		final JTextArea textAreaTitulo = new JTextArea();
 		
@@ -57,30 +59,19 @@ public class GUI {
 		// atribui valores
 		textAreaTitulo.setTabSize(12);
 		textAreaTitulo.setEditable(false);
-		// textArea1.setBounds(12, 57, 270, 381);
-
-		final JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(12, 57, 405, 657);
 
 		frmGreentxGeneralizing.getContentPane().setLayout(null);
-		// frame.getContentPane().add(textArea1);
-		frmGreentxGeneralizing.getContentPane().add(scrollPane);
-		final JTextArea textArea1 = new JTextArea();
-		scrollPane.setViewportView(textArea1);
-		textArea1.setTabSize(100);
-		textArea1.setEditable(false);
 
-		textAreaTitulo.setBounds(347, 13, 270, 25);
+		textAreaTitulo.setBounds(332, 13, 270, 25);
 		frmGreentxGeneralizing.getContentPane().add(textAreaTitulo);
 
-		
-		
 		JScrollPane scrollPane_1 = new JScrollPane();
-		scrollPane_1.setBounds(538, 57, 461, 657);
+		scrollPane_1.setBounds(12, 128, 459, 586);
 		frmGreentxGeneralizing.getContentPane().add(scrollPane_1);
 		
 		final JTextArea textAreaFiltro = new JTextArea();
 		scrollPane_1.setViewportView(textAreaFiltro);
+		textAreaFiltro.setTabSize(1000);
 		textAreaFiltro.setEditable(false);
 
 		JMenuBar menuBar = new JMenuBar();
@@ -90,7 +81,7 @@ public class GUI {
 		menuBar.add(mnFile);
 		
 
-		JButton btnFiltrar = new JButton("Filtrar >>");
+		JButton btnFiltrar = new JButton("Filtrar");
 		btnFiltrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				Grafo ar = new Grafo();
@@ -103,13 +94,25 @@ public class GUI {
 			}
 		});
 
-		btnFiltrar.setBounds(429, 57, 97, 25);
+		btnFiltrar.setBounds(505, 128, 97, 25);
 		frmGreentxGeneralizing.getContentPane().add(btnFiltrar);
 		
+		JLabel lblNewLabel = new JLabel("Tipo:");
+		lblNewLabel.setBounds(23, 41, 56, 16);
+		frmGreentxGeneralizing.getContentPane().add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("N\u00FAmero Inicial:");
+		lblNewLabel_1.setBounds(23, 70, 111, 16);
+		frmGreentxGeneralizing.getContentPane().add(lblNewLabel_1);
+		
+		JLabel lblRegrasFiltradas = new JLabel("Regras Filtradas:");
+		lblRegrasFiltradas.setBounds(24, 99, 136, 16);
+		frmGreentxGeneralizing.getContentPane().add(lblRegrasFiltradas);
+		
+				
 		JCheckBoxMenuItem chckbxmntmOpen = new JCheckBoxMenuItem("Open");
 		chckbxmntmOpen.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				
+			public void actionPerformed(ActionEvent e) {				
 				// seleciona diretório
 				//JFileChooser jf = new JFileChooser();
 				//jf.setCurrentDirectory(new File(System.getProperty("user.home")));
@@ -119,7 +122,7 @@ public class GUI {
 				jf.setMultiSelectionEnabled(false);
 				// mostra janela para secelionar file
 				int escolha = jf.showOpenDialog(null);
-
+							
 				// se escolheu algum arquivo
 				if (escolha == JFileChooser.APPROVE_OPTION) {
 					textAreaTitulo.append("Regra: "
@@ -127,10 +130,12 @@ public class GUI {
 					// aloca classe Arquivo
 
 					arq.Arquivo(jf.getSelectedFile().getPath());
-
+					
+					/*
 					for (int i = 0; i < arq.lista.size(); i++) {
 						textArea1.append(arq.lista.get(i) + "\n");
 					}
+					*/
 				} else
 					textAreaTitulo.append("Erro ao abrir o arquivo!");
 			}
