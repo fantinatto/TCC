@@ -1,84 +1,2714 @@
-geografia_media <-  artes_media (100.0 , 20.0 )
+variedade_tamanhos2 <-  variedade_cores6 (55.6 , 2.5 )
 
-geografia_media <-  matematica_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos2 <-  Vizualizacao_externa1 variedade_cores1 (100.0 , 0.3 )
 
-geografia_media <-  matematica_acimamedia (100.0 , 20.0 )
+variedade_tamanhos2 <-  variedade_cores2 localizacao5 (100.0 , 0.3 )
 
-geografia_media <-  portugues_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos2 <-  vitrine1 divulgacao2 (50.0 , 0.6 )
 
-geografia_media <-  filosofia_media (100.0 , 40.0 )
+variedade_tamanhos2 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
 
-geografia_media <-  história_abaixomedia (100.0 , 40.0 )
+variedade_tamanhos2 <-  formas_pagamento5 provador1 (100.0 , 0.3 )
 
-geografia_media <-  história_media (100.0 , 60.0 )
+variedade_tamanhos2 <-  divulgacao5 qualidade_produto2 (50.0 , 0.6 )
 
-geografia_media <-  matematica_media (100.0 , 60.0 )
+variedade_tamanhos2 <-  Vizualizacao_externa2 formas_pagamento2 (66.7 , 0.8 )
 
-geografia_media <-  filosofia_abaixomedia (100.0 , 60.0 )
+variedade_tamanhos2 <-  vitrine2 Vizualizacao_externa5 (50.0 , 0.6 )
 
-geografia_media <-  portugues_media (100.0 , 80.0 )
+variedade_tamanhos2 <-  atendimento2 aparencia_loja2 (50.0 , 2.3 )
 
-geografia_media <-  artes_abaixomedia (100.0 , 80.0 )
+variedade_tamanhos2 <-  qualidade_produto1 aparencia_loja5 (50.0 , 0.6 )
 
-artes_abaixomedia <-  matematica_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos2 <-  Vendedor2 provador2 (60.0 , 2.8 )
 
-artes_abaixomedia <-  matematica_acimamedia (100.0 , 20.0 )
+variedade_tamanhos2 <-  localizacao6 atendimento6 aparencia_loja4 (100.0 , 0.3 )
 
-artes_abaixomedia <-  portugues_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos1 <-  atendimento1 (57.1 , 2.0 )
 
-artes_abaixomedia <-  história_abaixomedia (100.0 , 40.0 )
+variedade_tamanhos1 <-  provador1 (51.6 , 8.8 )
 
-artes_abaixomedia <-  filosofia_abaixomedia (100.0 , 60.0 )
+variedade_tamanhos1 <-  variedade_cores1 vitrine1 (100.0 , 0.3 )
 
-artes_abaixomedia <-  geografia_media (80.0 , 100.0 )
+variedade_tamanhos1 <-  variedade_cores2 Vizualizacao_externa2 (100.0 , 0.3 )
 
-matematica_acimamedia <-  história_media filosofia_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos1 <-  atendimentonr localizacao6 (100.0 , 0.3 )
 
-filosofia_media <-  artes_media (100.0 , 20.0 )
+variedade_tamanhos1 <-  variedade_cores6 localizacao5 (50.0 , 0.6 )
 
-filosofia_media <-  história_media matematica_media (100.0 , 40.0 )
+variedade_tamanhos1 <-  divulgacao5 qualidade_produto3 (100.0 , 0.6 )
 
-filosofia_abaixomedia <-  matematica_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos1 <-  variedade_cores3 qualidade_produto1 (100.0 , 0.3 )
 
-filosofia_abaixomedia <-  matematica_acimamedia (100.0 , 20.0 )
+variedade_tamanhos1 <-  vitrine2 Vendedor3 (50.0 , 1.1 )
 
-filosofia_abaixomedia <-  portugues_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos1 <-  atendimento6 divulgacao4 (50.0 , 0.6 )
 
-filosofia_abaixomedia <-  história_abaixomedia (100.0 , 40.0 )
+variedade_tamanhos1 <-  localizacao2 divulgacao3 (100.0 , 0.3 )
 
-história_media <-  artes_media (100.0 , 20.0 )
+variedade_tamanhos1 <-  localizacao1 SimRetornou (50.0 , 0.6 )
 
-história_media <-  matematica_acimamedia (100.0 , 20.0 )
+variedade_tamanhos1 <-  Vendedor4 formas_pagamento1 (60.0 , 7.1 )
 
-história_media <-  filosofia_media (100.0 , 40.0 )
+variedade_tamanhos4 <-  divulgacaonr (50.0 , 1.1 )
 
-história_media <-  matematica_media portugues_media (100.0 , 40.0 )
+variedade_tamanhos4 <-  provador (50.0 , 1.7 )
 
-portugues_media <-  artes_media (100.0 , 20.0 )
+variedade_tamanhos4 <-  formas_pagamento4 (53.1 , 13.9 )
 
-portugues_media <-  matematica_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos4 <-  aparencia_lojanr localizacao2 (100.0 , 0.3 )
 
-portugues_media <-  matematica_acimamedia (100.0 , 20.0 )
+variedade_tamanhos4 <-  Vizualizacao_externa1 variedade_cores2 (100.0 , 0.3 )
 
-portugues_media <-  filosofia_media (100.0 , 40.0 )
+variedade_tamanhos4 <-  atendimentonr formas_pagamento5 (100.0 , 0.3 )
 
-portugues_media <-  história_media (100.0 , 60.0 )
+variedade_tamanhos4 <-  vitrine1 atendimento6 (100.0 , 0.3 )
 
-portugues_media <-  geografia_media (80.0 , 100.0 )
+variedade_tamanhos4 <-  atendimento1 Vizualizacao_externa3 (50.0 , 0.6 )
 
-matematica_abaixomedia <-  história_abaixomedia portugues_media (100.0 , 20.0 )
+variedade_tamanhos4 <-  variedade_cores6 divulgacao4 (100.0 , 0.3 )
 
-portugues_abaixomedia <-  história_abaixomedia matematica_media (100.0 , 20.0 )
+variedade_tamanhos4 <-  divulgacao5 localizacao6 (100.0 , 0.3 )
 
-história_abaixomedia <-  matematica_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos4 <-  variedade_cores3 Vizualizacao_externa2 (100.0 , 0.3 )
 
-história_abaixomedia <-  portugues_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos4 <-  localizacao5 aparencia_loja5 (50.0 , 1.7 )
 
-história_abaixomedia <-  matematica_media filosofia_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos4 <-  vitrine2 divulgacao3 (100.0 , 0.6 )
 
-matematica_media <-  artes_media (100.0 , 20.0 )
+variedade_tamanhos4 <-  atendimento2 Vendedor2 (57.1 , 2.0 )
 
-matematica_media <-  portugues_abaixomedia (100.0 , 20.0 )
+variedade_tamanhos4 <-  formas_pagamento3 qualidade_produto2 (50.0 , 1.1 )
 
-matematica_media <-  filosofia_media (100.0 , 40.0 )
+variedade_tamanhos4 <-  aparencia_loja1 noite (50.0 , 1.1 )
+
+variedade_tamanhos4 <-  provador5 formas_pagamento2 (66.7 , 0.8 )
+
+variedade_tamanhos4 <-  Vendedor1 provador2 (50.0 , 2.8 )
+
+variedade_tamanhos4 <-  vitrine5 provador3 (50.0 , 5.1 )
+
+variedade_tamanhos4 <-  qualidade_produto5 tarde (50.0 , 6.2 )
+
+variedade_tamanhos4 <-  aparencia_loja3 provador4 (53.8 , 7.4 )
+
+variedade_tamanhos3 <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+variedade_tamanhos3 <-  Vizualizacao_externa1 vitrine1 (100.0 , 0.3 )
+
+variedade_tamanhos3 <-  variedade_cores1 Vendedor3 (100.0 , 0.3 )
+
+variedade_tamanhos3 <-  divulgacao5 formas_pagamento4 (50.0 , 0.6 )
+
+variedade_tamanhos3 <-  variedade_cores3 divulgacao3 (50.0 , 0.6 )
+
+variedade_tamanhos3 <-  localizacao6 Vendedor2 (50.0 , 0.6 )
+
+variedade_tamanhos3 <-  Vizualizacao_externa2 aparencia_loja5 (100.0 , 0.6 )
+
+variedade_tamanhos3 <-  provador1 formas_pagamento3 (50.0 , 0.6 )
+
+variedade_tamanhos3 <-  vitrine2 divulgacao4 (50.0 , 0.6 )
+
+variedade_tamanhos3 <-  atendimento6 Vizualizacao_externa3 (50.0 , 1.7 )
+
+variedade_tamanhos3 <-  aparencia_loja1 atendimento3 (50.0 , 1.1 )
+
+variedade_tamanhos3 <-  qualidade_produto1 localizacao4 (50.0 , 1.1 )
+
+variedade_tamanhos3 <-  qualidade_produto2 Vendedor1 (57.1 , 2.0 )
+
+variedade_tamanhos3 <-  localizacao1 SimRetornou (50.0 , 0.6 )
+
+variedade_tamanhos3 <-  formas_pagamento2 qualidade_produto5 (57.1 , 2.0 )
+
+qualidade_produto1 <-  Vizualizacao_externa1 (60.0 , 1.4 )
+
+qualidade_produto1 <-  variedade_cores1 (60.0 , 1.4 )
+
+qualidade_produto1 <-  vitrine1 (50.0 , 1.7 )
+
+qualidade_produto1 <-  variedade_cores2 Vizualizacao_externa2 (100.0 , 0.3 )
+
+qualidade_produto1 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
+
+qualidade_produto1 <-  variedade_cores6 localizacao6 (66.7 , 0.8 )
+
+qualidade_produto1 <-  formas_pagamento5 vitrine2 (100.0 , 0.3 )
+
+qualidade_produto1 <-  divulgacao5 atendimento6 (50.0 , 0.6 )
+
+qualidade_produto1 <-  localizacao5 provador1 (75.0 , 1.1 )
+
+qualidade_produto1 <-  atendimento2 variedade_tamanhos1 (66.7 , 0.8 )
+
+qualidade_produto1 <-  aparencia_loja1 variedade_tamanhos2 (50.0 , 1.7 )
+
+qualidade_produto1 <-  localizacao1 SimRetornou (50.0 , 0.6 )
+
+variedade_tamanhos5 <-  formas_pagamento5 (64.7 , 4.8 )
+
+variedade_tamanhos5 <-  provador5 (62.7 , 16.7 )
+
+variedade_tamanhos5 <-  Vizualizacao_externa1 localizacao5 (100.0 , 0.3 )
+
+variedade_tamanhos5 <-  vitrine1 qualidade_produto2 (100.0 , 0.3 )
+
+variedade_tamanhos5 <-  variedade_cores6 formas_pagamento4 (100.0 , 0.3 )
+
+variedade_tamanhos5 <-  divulgacao5 variedade_cores3 (100.0 , 0.3 )
+
+variedade_tamanhos5 <-  aparencia_loja1 divulgacao3 (100.0 , 0.3 )
+
+variedade_tamanhos5 <-  localizacao2 Vendedor2 (50.0 , 2.3 )
+
+variedade_tamanhos5 <-  aparencia_loja5 Vendedor3 (54.5 , 3.1 )
+
+variedade_tamanhos5 <-  divulgacao4 atendimento5 (50.0 , 4.0 )
+
+variedade_tamanhos5 <-  Vendedor1 manha (55.6 , 2.5 )
+
+variedade_tamanhos5 <-  localizacao1 vitrine5 (60.0 , 4.2 )
+
+variedade_tamanhos5 <-  divulgacao2 qualidade_produto5 (52.6 , 5.4 )
+
+variedade_tamanhos5 <-  atendimento4 Vizualizacao_externa5 (51.0 , 14.4 )
+
+variedade_tamanhos5 <-  localizacao6 vitrine2 Vizualizacao_externa3 (100.0 , 0.3 )
+
+Vizualizacao_externa4 <-  aparencia_lojanr localizacao2 (100.0 , 0.3 )
+
+Vizualizacao_externa4 <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+Vizualizacao_externa4 <-  variedade_cores2 localizacao5 (100.0 , 0.3 )
+
+Vizualizacao_externa4 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
+
+Vizualizacao_externa4 <-  formas_pagamento5 atendimento6 (100.0 , 0.3 )
+
+Vizualizacao_externa4 <-  divulgacao5 variedade_tamanhos1 (100.0 , 0.6 )
+
+Vizualizacao_externa4 <-  localizacao6 qualidade_produto2 (50.0 , 1.1 )
+
+Vizualizacao_externa4 <-  provador1 formas_pagamento3 (100.0 , 0.6 )
+
+Vizualizacao_externa4 <-  vitrine2 divulgacao3 (50.0 , 0.6 )
+
+Vizualizacao_externa4 <-  atendimento2 variedade_tamanhos2 (50.0 , 2.3 )
+
+Vizualizacao_externa4 <-  aparencia_loja1 Vendedor3 (50.0 , 1.7 )
+
+Vizualizacao_externa4 <-  qualidade_produto1 divulgacao4 (100.0 , 0.6 )
+
+Vizualizacao_externa4 <-  aparencia_loja5 Vendedor1 (54.5 , 3.1 )
+
+Vizualizacao_externa4 <-  formas_pagamento4 variedade_tamanhos3 (57.1 , 2.0 )
+
+Vizualizacao_externa4 <-  Vendedor2 noite (50.0 , 4.5 )
+
+Vizualizacao_externa4 <-  provador2 localizacao1 (50.0 , 3.4 )
+
+Vizualizacao_externa4 <-  formas_pagamento2 variedade_cores4 (53.3 , 8.5 )
+
+Vizualizacao_externa4 <-  atendimento3 provador4 (50.0 , 3.4 )
+
+Vizualizacao_externa4 <-  localizacao4 aparencia_loja3 (50.0 , 6.8 )
+
+Vizualizacao_externa4 <-  atendimento5 tarde (50.0 , 1.1 )
+
+Vizualizacao_externa4 <-  vitrine3 qualidade_produto4 (50.0 , 9.6 )
+
+Vizualizacao_externa4 <-  atendimento4 variedade_tamanhos4 (51.4 , 10.5 )
+
+Vizualizacao_externa4 <-  divulgacao1 vitrine4 (50.0 , 11.3 )
+
+Vizualizacao_externa5 <-  variedade_coresnr (50.0 , 0.6 )
+
+Vizualizacao_externa5 <-  divulgacaonr (75.0 , 1.1 )
+
+Vizualizacao_externa5 <-  provador (50.0 , 1.7 )
+
+Vizualizacao_externa5 <-  divulgacao5 (55.0 , 5.7 )
+
+Vizualizacao_externa5 <-  aparencia_loja5 (63.0 , 13.0 )
+
+Vizualizacao_externa5 <-  provador5 (69.5 , 16.7 )
+
+Vizualizacao_externa5 <-  vitrine5 (67.1 , 23.2 )
+
+Vizualizacao_externa5 <-  localizacao4 (52.4 , 23.8 )
+
+Vizualizacao_externa5 <-  variedade_tamanhos5 (59.5 , 23.8 )
+
+Vizualizacao_externa5 <-  qualidade_produto5 (54.7 , 24.4 )
+
+Vizualizacao_externa5 <-  variedade_cores5 (50.9 , 45.6 )
+
+Vizualizacao_externa5 <-  localizacaonr Vendedor1 (100.0 , 0.3 )
+
+Vizualizacao_externa5 <-  variedade_tamanhosnr NaoRetornou (100.0 , 0.3 )
+
+Vizualizacao_externa5 <-  variedade_cores1 variedade_tamanhos3 (100.0 , 0.3 )
+
+Vizualizacao_externa5 <-  variedade_cores2 provador1 (100.0 , 0.3 )
+
+Vizualizacao_externa5 <-  atendimentonr formas_pagamento5 (100.0 , 0.3 )
+
+Vizualizacao_externa5 <-  vitrine1 atendimento1 (50.0 , 0.6 )
+
+Vizualizacao_externa5 <-  variedade_cores6 localizacao6 (66.7 , 0.8 )
+
+Vizualizacao_externa5 <-  variedade_cores3 variedade_tamanhos1 (50.0 , 0.6 )
+
+Vizualizacao_externa5 <-  localizacao5 formas_pagamento3 (50.0 , 1.1 )
+
+Vizualizacao_externa5 <-  atendimento2 qualidade_produto2 (50.0 , 1.1 )
+
+Vizualizacao_externa5 <-  atendimento6 formas_pagamento4 (66.7 , 0.8 )
+
+Vizualizacao_externa5 <-  aparencia_loja1 Vendedor2 (50.0 , 1.1 )
+
+Vizualizacao_externa5 <-  localizacao2 divulgacao3 (100.0 , 0.3 )
+
+Vizualizacao_externa5 <-  variedade_tamanhos2 divulgacao4 (100.0 , 0.3 )
+
+Vizualizacao_externa5 <-  provador2 localizacao3 (50.0 , 5.1 )
+
+Vizualizacao_externa5 <-  localizacao1 qualidade_produto3 (50.0 , 2.3 )
+
+Vizualizacao_externa5 <-  formas_pagamento2 aparencia_loja4 (50.0 , 4.5 )
+
+Vizualizacao_externa5 <-  Vendedor3 atendimento3 (50.0 , 7.9 )
+
+Vizualizacao_externa5 <-  divulgacao2 vitrine4 (50.0 , 7.9 )
+
+Vizualizacao_externa5 <-  atendimento5 provador3 (52.6 , 5.4 )
+
+Vizualizacao_externa5 <-  atendimento4 manha (52.9 , 9.6 )
+
+Vizualizacao_externanr <-  qualidade_produtonr (100.0 , 0.6 )
+
+Vizualizacao_externanr <-  vitrinenr (100.0 , 0.6 )
+
+Vizualizacao_externanr <-  variedade_coresnr (50.0 , 0.6 )
+
+Vizualizacao_externanr <-  aparencia_lojanr (66.7 , 0.8 )
+
+Vizualizacao_externanr <-  localizacaonr (66.7 , 0.8 )
+
+Vizualizacao_externanr <-  variedade_tamanhosnr (50.0 , 1.1 )
+
+Vizualizacao_externanr <-  formas_pagamentonr (50.0 , 1.1 )
+
+Vizualizacao_externanr <-  divulgacaonr variedade_cores4 (100.0 , 0.3 )
+
+Vizualizacao_externanr <-  atendimentonr provador (50.0 , 1.1 )
+
+variedade_cores6 <-  localizacao6 Vizualizacao_externa2 (50.0 , 0.6 )
+
+variedade_cores6 <-  localizacao5 vitrine2 (50.0 , 0.6 )
+
+variedade_cores6 <-  atendimento6 variedade_tamanhos2 (66.7 , 1.7 )
+
+variedade_cores6 <-  qualidade_produto1 aparencia_loja2 (50.0 , 0.6 )
+
+variedade_cores6 <-  formas_pagamento5 Vizualizacao_externa3 divulgacao4 (100.0 , 0.3 )
+
+variedade_cores6 <-  provador1 qualidade_produto2 divulgacao2 (50.0 , 0.6 )
+
+variedade_cores6 <-  variedade_tamanhos1 provador3 noite (50.0 , 0.6 )
+
+variedade_cores6 <-  vitrine5 aparencia_loja3 provador4 (100.0 , 0.3 )
+
+Vizualizacao_externa1 <-  variedade_cores1 variedade_tamanhos2 (50.0 , 0.6 )
+
+Vizualizacao_externa1 <-  variedade_cores2 divulgacao5 (100.0 , 0.3 )
+
+Vizualizacao_externa1 <-  vitrine1 localizacao6 (100.0 , 0.3 )
+
+Vizualizacao_externa1 <-  vitrine2 aparencia_loja5 (100.0 , 0.3 )
+
+Vizualizacao_externa1 <-  aparencia_loja1 divulgacao3 (100.0 , 0.3 )
+
+Vizualizacao_externa1 <-  qualidade_produto1 formas_pagamento4 (50.0 , 0.6 )
+
+Vizualizacao_externa1 <-  localizacao5 variedade_tamanhos5 vitrine3 (50.0 , 0.6 )
+
+Vizualizacao_externa1 <-  provador1 Vendedor1 atendimento3 (50.0 , 0.6 )
+
+Vizualizacao_externa1 <-  atendimento6 formas_pagamento3 qualidade_produto3 (50.0 , 0.6 )
+
+Vizualizacao_externa1 <-  qualidade_produto2 Vendedor2 provador2 (50.0 , 0.6 )
+
+Vizualizacao_externa1 <-  variedade_tamanhos3 SimRetornou formas_pagamento1 (100.0 , 0.3 )
+
+Vizualizacao_externa2 <-  variedade_cores1 (60.0 , 1.4 )
+
+Vizualizacao_externa2 <-  vitrine1 (50.0 , 1.7 )
+
+Vizualizacao_externa2 <-  variedade_cores2 atendimento2 (50.0 , 0.6 )
+
+Vizualizacao_externa2 <-  atendimento1 provador1 (66.7 , 0.8 )
+
+Vizualizacao_externa2 <-  variedade_cores6 localizacao5 (50.0 , 0.6 )
+
+Vizualizacao_externa2 <-  divulgacao5 atendimento6 (50.0 , 0.6 )
+
+Vizualizacao_externa2 <-  variedade_cores3 qualidade_produto5 (50.0 , 0.6 )
+
+Vizualizacao_externa2 <-  vitrine2 formas_pagamento3 (66.7 , 0.8 )
+
+Vizualizacao_externa2 <-  variedade_tamanhos1 qualidade_produto2 (50.0 , 0.6 )
+
+Vizualizacao_externa2 <-  aparencia_loja1 provador5 (50.0 , 0.6 )
+
+Vizualizacao_externa2 <-  qualidade_produto1 localizacao2 (50.0 , 1.1 )
+
+Vizualizacao_externa2 <-  localizacao1 SimRetornou (50.0 , 0.6 )
+
+Vizualizacao_externa2 <-  localizacao6 aparencia_loja2 formas_pagamento1 (100.0 , 0.3 )
+
+Vizualizacao_externa2 <-  variedade_tamanhos2 formas_pagamento4 provador2 (50.0 , 0.6 )
+
+Vizualizacao_externa2 <-  aparencia_loja5 divulgacao3 formas_pagamento2 (100.0 , 0.3 )
+
+Vizualizacao_externa3 <-  variedade_tamanhosnr localizacao6 (100.0 , 0.3 )
+
+Vizualizacao_externa3 <-  atendimentonr variedade_tamanhos1 (100.0 , 0.3 )
+
+Vizualizacao_externa3 <-  provador Vendedor3 (100.0 , 0.3 )
+
+Vizualizacao_externa3 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
+
+Vizualizacao_externa3 <-  variedade_cores6 formas_pagamento5 (100.0 , 0.3 )
+
+Vizualizacao_externa3 <-  localizacao5 provador1 (50.0 , 1.1 )
+
+Vizualizacao_externa3 <-  vitrine2 qualidade_produto2 (50.0 , 1.7 )
+
+Vizualizacao_externa3 <-  atendimento2 divulgacao4 (50.0 , 1.1 )
+
+Vizualizacao_externa3 <-  atendimento6 Vendedor2 (50.0 , 0.6 )
+
+Vizualizacao_externa3 <-  aparencia_loja1 noite (50.0 , 1.1 )
+
+Vizualizacao_externa3 <-  qualidade_produto1 formas_pagamento4 (50.0 , 0.6 )
+
+Vizualizacao_externa3 <-  localizacao2 provador3 (54.5 , 3.1 )
+
+Vizualizacao_externa3 <-  Vendedor1 SimRetornou (75.0 , 1.1 )
+
+Vizualizacao_externa3 <-  formas_pagamento2 atendimento4 (50.0 , 3.4 )
+
+Vizualizacao_externa3 <-  divulgacao5 provador5 aparencia_loja2 (50.0 , 0.6 )
+
+vitrine4 <-  divulgacaonr (50.0 , 1.1 )
+
+vitrine4 <-  formas_pagamento5 (58.8 , 4.8 )
+
+vitrine4 <-  localizacao6 (59.3 , 7.6 )
+
+vitrine4 <-  divulgacao3 (51.0 , 14.4 )
+
+vitrine4 <-  divulgacao4 (50.8 , 17.3 )
+
+vitrine4 <-  aparencia_loja4 (52.4 , 29.7 )
+
+vitrine4 <-  variedade_cores2 localizacao5 (100.0 , 0.3 )
+
+vitrine4 <-  atendimentonr variedade_tamanhos1 (100.0 , 0.3 )
+
+vitrine4 <-  provador localizacao2 (100.0 , 0.3 )
+
+vitrine4 <-  variedade_cores6 provador2 (50.0 , 0.6 )
+
+vitrine4 <-  divulgacao5 Vizualizacao_externa2 (100.0 , 0.3 )
+
+vitrine4 <-  variedade_cores3 localizacao1 (50.0 , 1.1 )
+
+vitrine4 <-  provador1 formas_pagamento3 (50.0 , 0.6 )
+
+vitrine4 <-  atendimento2 aparencia_loja5 (50.0 , 0.6 )
+
+vitrine4 <-  atendimento6 aparencia_loja1 (50.0 , 2.3 )
+
+vitrine4 <-  qualidade_produto1 Vendedor2 (50.0 , 1.7 )
+
+vitrine4 <-  variedade_tamanhos2 Vendedor3 (80.0 , 1.4 )
+
+vitrine4 <-  qualidade_produto2 noite (50.0 , 1.7 )
+
+vitrine4 <-  formas_pagamento4 provador4 (50.0 , 4.0 )
+
+vitrine4 <-  provador5 variedade_tamanhos3 (66.7 , 0.8 )
+
+vitrine4 <-  formas_pagamento2 atendimento3 (60.0 , 4.2 )
+
+vitrine4 <-  qualidade_produto3 variedade_tamanhos5 (58.3 , 3.4 )
+
+vitrine4 <-  localizacao4 tarde (52.4 , 5.9 )
+
+vitrine4 <-  qualidade_produto5 aparencia_loja3 (50.0 , 5.1 )
+
+vitrine4 <-  provador3 localizacao3 (52.8 , 10.2 )
+
+vitrine4 <-  qualidade_produto4 Vizualizacao_externa5 (56.1 , 11.6 )
+
+vitrine3 <-  variedade_cores3 (52.4 , 5.9 )
+
+vitrine3 <-  variedade_tamanhosnr localizacao6 (100.0 , 0.3 )
+
+vitrine3 <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+vitrine3 <-  Vizualizacao_externa1 localizacao5 (100.0 , 0.3 )
+
+vitrine3 <-  atendimento1 qualidade_produto1 (50.0 , 0.6 )
+
+vitrine3 <-  variedade_cores6 Vizualizacao_externa2 (66.7 , 0.8 )
+
+vitrine3 <-  formas_pagamento5 divulgacao3 (100.0 , 0.3 )
+
+vitrine3 <-  divulgacao5 variedade_tamanhos1 (50.0 , 0.6 )
+
+vitrine3 <-  provador1 Vizualizacao_externa3 (60.0 , 1.4 )
+
+vitrine3 <-  atendimento2 variedade_tamanhos2 (62.5 , 2.3 )
+
+vitrine3 <-  atendimento6 aparencia_loja5 (50.0 , 0.6 )
+
+vitrine3 <-  aparencia_loja1 divulgacao4 (100.0 , 0.3 )
+
+vitrine3 <-  localizacao2 Vendedor1 (50.0 , 2.3 )
+
+vitrine3 <-  qualidade_produto2 formas_pagamento2 (53.3 , 4.2 )
+
+vitrine3 <-  formas_pagamento4 provador2 (50.0 , 2.3 )
+
+vitrine3 <-  localizacao1 provador3 (50.0 , 2.8 )
+
+vitrine3 <-  aparencia_loja3 Vizualizacao_externa4 (50.0 , 10.8 )
+
+vitrine3 <-  SimRetornou formas_pagamento1 (50.0 , 6.8 )
+
+vitrine5 <-  variedade_coresnr (50.0 , 0.6 )
+
+vitrine5 <-  aparencia_lojanr localizacao2 (100.0 , 0.3 )
+
+vitrine5 <-  localizacaonr divulgacaonr (50.0 , 0.6 )
+
+vitrine5 <-  variedade_tamanhosnr aparencia_loja5 (100.0 , 0.3 )
+
+vitrine5 <-  formas_pagamentonr Vendedor1 (100.0 , 0.3 )
+
+vitrine5 <-  variedade_cores1 variedade_tamanhos3 (100.0 , 0.3 )
+
+vitrine5 <-  atendimentonr qualidade_produto5 (50.0 , 0.6 )
+
+vitrine5 <-  provador localizacao1 (100.0 , 0.3 )
+
+vitrine5 <-  atendimento1 localizacao4 (100.0 , 0.3 )
+
+vitrine5 <-  variedade_cores6 formas_pagamento4 (100.0 , 0.3 )
+
+vitrine5 <-  formas_pagamento5 divulgacao5 (50.0 , 1.1 )
+
+vitrine5 <-  variedade_cores3 divulgacao4 (100.0 , 0.3 )
+
+vitrine5 <-  localizacao5 aparencia_loja2 (100.0 , 0.3 )
+
+vitrine5 <-  provador1 formas_pagamento3 (50.0 , 0.6 )
+
+vitrine5 <-  variedade_tamanhos1 provador4 (50.0 , 0.6 )
+
+vitrine5 <-  aparencia_loja1 provador5 (50.0 , 0.6 )
+
+vitrine5 <-  Vendedor3 atendimento5 (63.6 , 3.1 )
+
+vitrine5 <-  variedade_tamanhos5 aparencia_loja4 (51.7 , 8.2 )
+
+vitrine5 <-  divulgacao1 Vizualizacao_externa5 (51.2 , 12.2 )
+
+vitrine5 <-  manha NaoRetornou (56.0 , 7.1 )
+
+vitrine5 <-  localizacao6 divulgacao3 qualidade_produto3 (100.0 , 0.3 )
+
+vitrine2 <-  variedade_cores1 (60.0 , 1.4 )
+
+vitrine2 <-  variedade_cores2 (60.0 , 1.4 )
+
+vitrine2 <-  Vizualizacao_externa1 divulgacao5 (100.0 , 0.3 )
+
+vitrine2 <-  atendimento1 Vizualizacao_externa2 (50.0 , 0.6 )
+
+vitrine2 <-  variedade_cores6 localizacao6 (66.7 , 0.8 )
+
+vitrine2 <-  formas_pagamento5 aparencia_loja1 (50.0 , 0.6 )
+
+vitrine2 <-  variedade_cores3 divulgacao3 (50.0 , 0.6 )
+
+vitrine2 <-  localizacao5 atendimento6 (66.7 , 0.8 )
+
+vitrine2 <-  provador1 noite (50.0 , 1.1 )
+
+vitrine2 <-  atendimento2 variedade_tamanhos1 (66.7 , 0.8 )
+
+vitrine2 <-  formas_pagamento3 localizacao1 (100.0 , 0.3 )
+
+vitrine2 <-  qualidade_produto1 Vendedor1 (57.1 , 2.0 )
+
+vitrine1 <-  Vizualizacao_externa1 localizacao6 (100.0 , 0.3 )
+
+vitrine1 <-  variedade_cores1 atendimento1 (50.0 , 0.6 )
+
+vitrine1 <-  Vizualizacao_externa2 localizacao5 (50.0 , 0.6 )
+
+vitrine1 <-  provador1 Vendedor2 (50.0 , 1.1 )
+
+vitrine1 <-  variedade_tamanhos1 qualidade_produto5 (50.0 , 0.6 )
+
+vitrine1 <-  qualidade_produto1 aparencia_loja2 (50.0 , 0.6 )
+
+vitrine1 <-  atendimento6 formas_pagamento3 aparencia_loja1 (50.0 , 0.6 )
+
+vitrine1 <-  variedade_tamanhos2 divulgacao2 variedade_cores5 (50.0 , 0.6 )
+
+vitrine1 <-  qualidade_produto2 provador2 variedade_tamanhos5 (50.0 , 0.6 )
+
+vitrine1 <-  variedade_tamanhos3 SimRetornou formas_pagamento1 (100.0 , 0.3 )
+
+provador <-  qualidade_produtonr (100.0 , 0.6 )
+
+provador <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+provador <-  vitrinenr (100.0 , 0.6 )
+
+provador <-  variedade_coresnr (100.0 , 0.6 )
+
+provador <-  aparencia_lojanr (66.7 , 0.8 )
+
+provador <-  localizacaonr (100.0 , 0.8 )
+
+provador <-  variedade_tamanhosnr (75.0 , 1.1 )
+
+provador <-  formas_pagamentonr (75.0 , 1.1 )
+
+provador <-  divulgacaonr (75.0 , 1.1 )
+
+provador <-  atendimentonr (80.0 , 1.4 )
+
+provador <-  formas_pagamento5 localizacao2 (100.0 , 0.3 )
+
+provador <-  aparencia_loja5 qualidade_produto5 tarde (100.0 , 0.6 )
+
+provador <-  Vizualizacao_externa3 Vendedor3 atendimento5 (50.0 , 0.6 )
+
+provador <-  Vendedor1 noite divulgacao1 (50.0 , 0.6 )
+
+aparencia_lojanr <-  qualidade_produtonr (100.0 , 0.6 )
+
+aparencia_lojanr <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+aparencia_lojanr <-  vitrinenr (100.0 , 0.6 )
+
+aparencia_lojanr <-  variedade_coresnr (50.0 , 0.6 )
+
+aparencia_lojanr <-  localizacaonr (66.7 , 0.8 )
+
+aparencia_lojanr <-  variedade_tamanhosnr (50.0 , 1.1 )
+
+aparencia_lojanr <-  formas_pagamentonr (50.0 , 1.1 )
+
+aparencia_lojanr <-  divulgacaonr variedade_cores4 (100.0 , 0.3 )
+
+aparencia_lojanr <-  atendimentonr provador (50.0 , 1.1 )
+
+aparencia_lojanr <-  localizacao2 provador5 vitrine5 (50.0 , 0.6 )
+
+localizacaonr <-  qualidade_produtonr (100.0 , 0.6 )
+
+localizacaonr <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+localizacaonr <-  vitrinenr (100.0 , 0.6 )
+
+localizacaonr <-  variedade_coresnr (100.0 , 0.6 )
+
+localizacaonr <-  aparencia_lojanr (66.7 , 0.8 )
+
+localizacaonr <-  variedade_tamanhosnr (75.0 , 1.1 )
+
+localizacaonr <-  formas_pagamentonr (75.0 , 1.1 )
+
+localizacaonr <-  divulgacaonr (50.0 , 1.1 )
+
+localizacaonr <-  atendimentonr (60.0 , 1.4 )
+
+localizacaonr <-  provador (50.0 , 1.7 )
+
+localizacaonr <-  aparencia_loja5 qualidade_produto5 tarde (50.0 , 0.6 )
+
+qualidade_produtonr <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+qualidade_produtonr <-  vitrinenr (100.0 , 0.6 )
+
+qualidade_produtonr <-  variedade_coresnr (50.0 , 0.6 )
+
+qualidade_produtonr <-  aparencia_lojanr (66.7 , 0.8 )
+
+qualidade_produtonr <-  localizacaonr (66.7 , 0.8 )
+
+qualidade_produtonr <-  variedade_tamanhosnr (50.0 , 1.1 )
+
+qualidade_produtonr <-  formas_pagamentonr (50.0 , 1.1 )
+
+qualidade_produtonr <-  divulgacaonr variedade_cores4 (100.0 , 0.3 )
+
+qualidade_produtonr <-  atendimentonr provador (50.0 , 1.1 )
+
+vitrinenr <-  qualidade_produtonr (100.0 , 0.6 )
+
+vitrinenr <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+vitrinenr <-  variedade_coresnr (50.0 , 0.6 )
+
+vitrinenr <-  aparencia_lojanr (66.7 , 0.8 )
+
+vitrinenr <-  localizacaonr (66.7 , 0.8 )
+
+vitrinenr <-  variedade_tamanhosnr (50.0 , 1.1 )
+
+vitrinenr <-  formas_pagamentonr (50.0 , 1.1 )
+
+vitrinenr <-  divulgacaonr variedade_cores4 (100.0 , 0.3 )
+
+vitrinenr <-  atendimentonr provador (50.0 , 1.1 )
+
+atendimento6 <-  Vizualizacao_externa1 formas_pagamento3 (100.0 , 0.3 )
+
+atendimento6 <-  vitrine1 provador2 (50.0 , 0.6 )
+
+atendimento6 <-  variedade_cores6 localizacao6 (66.7 , 0.8 )
+
+atendimento6 <-  formas_pagamento5 qualidade_produto2 (50.0 , 0.6 )
+
+atendimento6 <-  divulgacao5 Vizualizacao_externa2 (100.0 , 0.3 )
+
+atendimento6 <-  localizacao5 vitrine2 (100.0 , 0.6 )
+
+atendimento6 <-  provador1 divulgacao3 (100.0 , 0.3 )
+
+atendimento6 <-  variedade_tamanhos1 divulgacao4 (50.0 , 0.6 )
+
+atendimento6 <-  aparencia_loja1 vitrine4 (50.0 , 2.3 )
+
+atendimento6 <-  formas_pagamento4 tarde (100.0 , 0.8 )
+
+atendimento6 <-  Vendedor2 SimRetornou (50.0 , 1.1 )
+
+atendimento6 <-  formas_pagamento2 manha (53.8 , 7.4 )
+
+manha <-  variedade_cores6 (88.9 , 2.5 )
+
+manha <-  formas_pagamento5 (76.5 , 4.8 )
+
+manha <-  divulgacao5 (55.0 , 5.7 )
+
+manha <-  localizacao6 (74.1 , 7.6 )
+
+manha <-  localizacao5 (70.0 , 8.5 )
+
+manha <-  provador1 (51.6 , 8.8 )
+
+manha <-  atendimento6 (71.9 , 9.1 )
+
+manha <-  formas_pagamento3 (60.0 , 9.9 )
+
+manha <-  aparencia_loja1 (54.3 , 9.9 )
+
+manha <-  formas_pagamento4 (87.8 , 13.9 )
+
+manha <-  provador5 (55.9 , 16.7 )
+
+manha <-  localizacao4 (50.0 , 23.8 )
+
+manha <-  atendimento5 (95.3 , 24.4 )
+
+manha <-  SimRetornou (73.1 , 44.2 )
+
+manha <-  Vendedor4 (67.5 , 45.3 )
+
+manha <-  variedade_tamanhosnr Vizualizacao_externa3 (100.0 , 0.3 )
+
+manha <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+manha <-  Vizualizacao_externa1 divulgacao3 (100.0 , 0.3 )
+
+manha <-  variedade_cores1 variedade_tamanhos3 (100.0 , 0.3 )
+
+manha <-  provador Vendedor3 (100.0 , 0.3 )
+
+manha <-  vitrine1 Vizualizacao_externa2 (66.7 , 0.8 )
+
+manha <-  vitrine2 variedade_tamanhos2 (50.0 , 1.7 )
+
+manha <-  variedade_tamanhos1 qualidade_produto1 (50.0 , 4.0 )
+
+manha <-  qualidade_produto2 provador2 (52.6 , 5.4 )
+
+manha <-  aparencia_loja5 divulgacao4 (58.3 , 3.4 )
+
+manha <-  formas_pagamento2 localizacao3 (56.3 , 4.5 )
+
+manha <-  qualidade_produto3 vitrine5 (58.8 , 4.8 )
+
+manha <-  variedade_tamanhos5 qualidade_produto5 (52.8 , 10.2 )
+
+manha <-  vitrine3 variedade_cores5 (54.8 , 8.8 )
+
+manha <-  variedade_cores3 Vendedor2 atendimento4 (100.0 , 0.3 )
+
+atendimento5 <-  formas_pagamento5 (52.9 , 4.8 )
+
+atendimento5 <-  formas_pagamento4 (53.1 , 13.9 )
+
+atendimento5 <-  manha (59.0 , 39.4 )
+
+atendimento5 <-  variedade_tamanhosnr localizacao6 (100.0 , 0.3 )
+
+atendimento5 <-  variedade_cores1 variedade_tamanhos3 (100.0 , 0.3 )
+
+atendimento5 <-  provador Vizualizacao_externa3 (100.0 , 0.3 )
+
+atendimento5 <-  vitrine1 localizacao5 (100.0 , 0.3 )
+
+atendimento5 <-  variedade_cores6 provador1 (66.7 , 0.8 )
+
+atendimento5 <-  divulgacao5 variedade_tamanhos1 (100.0 , 0.6 )
+
+atendimento5 <-  variedade_cores3 vitrine5 (50.0 , 0.6 )
+
+atendimento5 <-  Vizualizacao_externa2 variedade_tamanhos2 (50.0 , 1.1 )
+
+atendimento5 <-  vitrine2 provador5 (50.0 , 1.1 )
+
+atendimento5 <-  formas_pagamento3 localizacao2 (50.0 , 0.6 )
+
+atendimento5 <-  aparencia_loja1 Vendedor2 (50.0 , 1.1 )
+
+atendimento5 <-  qualidade_produto1 aparencia_loja5 (50.0 , 0.6 )
+
+atendimento5 <-  divulgacao3 qualidade_produto5 (60.0 , 2.8 )
+
+atendimento5 <-  divulgacao4 aparencia_loja2 (50.0 , 1.7 )
+
+atendimento5 <-  localizacao1 SimRetornou (50.0 , 0.6 )
+
+atendimento4 <-  noite (85.6 , 25.5 )
+
+atendimento4 <-  provador4 (51.0 , 29.5 )
+
+atendimento4 <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+atendimento4 <-  divulgacaonr qualidade_produto3 (100.0 , 0.3 )
+
+atendimento4 <-  Vizualizacao_externa1 vitrine1 (100.0 , 0.3 )
+
+atendimento4 <-  variedade_cores2 localizacao5 (100.0 , 0.3 )
+
+atendimento4 <-  provador Vendedor1 (50.0 , 0.6 )
+
+atendimento4 <-  variedade_cores6 variedade_tamanhos1 (50.0 , 0.6 )
+
+atendimento4 <-  formas_pagamento5 divulgacao5 (50.0 , 1.1 )
+
+atendimento4 <-  variedade_cores3 vitrine2 (66.7 , 0.8 )
+
+atendimento4 <-  localizacao6 Vizualizacao_externa2 (50.0 , 0.6 )
+
+atendimento4 <-  provador1 formas_pagamento4 (100.0 , 0.3 )
+
+atendimento4 <-  formas_pagamento3 qualidade_produto1 (100.0 , 0.3 )
+
+atendimento4 <-  aparencia_loja1 divulgacao3 (100.0 , 0.3 )
+
+atendimento4 <-  localizacao2 Vendedor2 (75.0 , 2.3 )
+
+atendimento4 <-  variedade_tamanhos2 aparencia_loja5 (50.0 , 0.6 )
+
+atendimento4 <-  qualidade_produto2 Vizualizacao_externa3 (50.0 , 2.3 )
+
+atendimento4 <-  provador5 divulgacao4 (52.9 , 4.8 )
+
+atendimento4 <-  localizacao1 SimRetornou (50.0 , 0.6 )
+
+atendimento4 <-  variedade_tamanhos3 variedade_cores5 (50.0 , 7.4 )
+
+atendimento4 <-  Vendedor3 variedade_tamanhos5 (52.2 , 6.5 )
+
+atendimento4 <-  vitrine5 divulgacao2 (50.0 , 5.1 )
+
+atendimento4 <-  localizacao3 Vizualizacao_externa4 (50.0 , 9.6 )
+
+atendimento3 <-  tarde (51.6 , 35.1 )
+
+atendimento3 <-  aparencia_lojanr localizacao2 (100.0 , 0.3 )
+
+atendimento3 <-  Vizualizacao_externa1 variedade_cores1 (100.0 , 0.3 )
+
+atendimento3 <-  variedade_cores2 divulgacao5 (100.0 , 0.3 )
+
+atendimento3 <-  vitrine1 qualidade_produto2 (100.0 , 0.3 )
+
+atendimento3 <-  formas_pagamento5 provador1 (100.0 , 0.3 )
+
+atendimento3 <-  variedade_cores3 variedade_tamanhos1 (50.0 , 0.6 )
+
+atendimento3 <-  Vizualizacao_externa2 aparencia_loja5 (50.0 , 0.6 )
+
+atendimento3 <-  vitrine2 Vendedor2 (50.0 , 1.1 )
+
+atendimento3 <-  aparencia_loja1 Vendedor1 (50.0 , 1.1 )
+
+atendimento3 <-  qualidade_produto1 localizacao4 (50.0 , 1.1 )
+
+atendimento3 <-  variedade_tamanhos2 divulgacao3 (50.0 , 1.1 )
+
+atendimento3 <-  formas_pagamento4 noite (100.0 , 0.8 )
+
+atendimento3 <-  provador5 Vendedor3 (50.0 , 3.4 )
+
+atendimento3 <-  provador2 localizacao1 (50.0 , 3.4 )
+
+atendimento3 <-  aparencia_loja2 variedade_tamanhos5 (55.6 , 2.5 )
+
+atendimento3 <-  provador3 formas_pagamento1 (50.0 , 11.9 )
+
+atendimento3 <-  localizacao6 formas_pagamento2 qualidade_produto3 (100.0 , 0.3 )
+
+atendimento2 <-  variedade_cores1 variedade_tamanhos2 (50.0 , 0.6 )
+
+atendimento2 <-  variedade_cores2 Vizualizacao_externa2 (100.0 , 0.3 )
+
+atendimento2 <-  variedade_cores3 provador1 (100.0 , 0.3 )
+
+atendimento2 <-  localizacao5 tarde (100.0 , 0.6 )
+
+atendimento2 <-  vitrine2 localizacao2 (66.7 , 0.8 )
+
+atendimento2 <-  variedade_tamanhos1 qualidade_produto2 (50.0 , 0.6 )
+
+atendimento2 <-  aparencia_loja1 divulgacao4 (100.0 , 0.3 )
+
+atendimento2 <-  qualidade_produto1 Vendedor1 (57.1 , 2.0 )
+
+atendimento2 <-  localizacao1 divulgacao2 (50.0 , 2.8 )
+
+atendimento1 <-  variedade_cores1 vitrine1 (100.0 , 0.3 )
+
+atendimento1 <-  variedade_cores3 variedade_tamanhos1 (50.0 , 0.6 )
+
+atendimento1 <-  provador1 Vendedor2 (75.0 , 1.1 )
+
+atendimento1 <-  qualidade_produto1 aparencia_loja2 (50.0 , 0.6 )
+
+atendimento1 <-  Vizualizacao_externa2 vitrine2 qualidade_produto2 (100.0 , 0.3 )
+
+atendimento1 <-  variedade_tamanhos2 localizacao1 Vendedor4 (50.0 , 0.6 )
+
+atendimento1 <-  Vizualizacao_externa3 Vendedor1 provador2 (50.0 , 0.6 )
+
+atendimento1 <-  formas_pagamento2 vitrine5 qualidade_produto5 (50.0 , 0.6 )
+
+Vendedor4 <-  qualidade_produtonr (100.0 , 0.6 )
+
+Vendedor4 <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+Vendedor4 <-  vitrinenr (100.0 , 0.6 )
+
+Vendedor4 <-  variedade_coresnr (50.0 , 0.6 )
+
+Vendedor4 <-  aparencia_lojanr (66.7 , 0.8 )
+
+Vendedor4 <-  localizacaonr (66.7 , 0.8 )
+
+Vendedor4 <-  variedade_tamanhosnr (75.0 , 1.1 )
+
+Vendedor4 <-  formas_pagamentonr (75.0 , 1.1 )
+
+Vendedor4 <-  divulgacaonr (50.0 , 1.1 )
+
+Vendedor4 <-  Vizualizacao_externa1 (60.0 , 1.4 )
+
+Vendedor4 <-  atendimentonr (80.0 , 1.4 )
+
+Vendedor4 <-  provador (50.0 , 1.7 )
+
+Vendedor4 <-  vitrine1 (50.0 , 1.7 )
+
+Vendedor4 <-  variedade_cores6 (100.0 , 2.5 )
+
+Vendedor4 <-  formas_pagamento5 (100.0 , 4.8 )
+
+Vendedor4 <-  localizacao6 (92.6 , 7.6 )
+
+Vendedor4 <-  Vizualizacao_externa2 (55.6 , 7.6 )
+
+Vendedor4 <-  localizacao5 (80.0 , 8.5 )
+
+Vendedor4 <-  provador1 (54.8 , 8.8 )
+
+Vendedor4 <-  vitrine2 (54.8 , 8.8 )
+
+Vendedor4 <-  atendimento6 (84.4 , 9.1 )
+
+Vendedor4 <-  variedade_tamanhos1 (51.5 , 9.3 )
+
+Vendedor4 <-  formas_pagamento3 (100.0 , 9.9 )
+
+Vendedor4 <-  aparencia_loja1 (60.0 , 9.9 )
+
+Vendedor4 <-  variedade_tamanhos2 (52.4 , 11.9 )
+
+Vendedor4 <-  formas_pagamento4 (100.0 , 13.9 )
+
+Vendedor4 <-  divulgacao4 (52.5 , 17.3 )
+
+Vendedor4 <-  localizacao4 (60.7 , 23.8 )
+
+Vendedor4 <-  atendimento5 (68.6 , 24.4 )
+
+Vendedor4 <-  manha (77.7 , 39.4 )
+
+Vendedor4 <-  SimRetornou (94.9 , 44.2 )
+
+Vendedor4 <-  variedade_cores5 (51.6 , 45.6 )
+
+Vendedor4 <-  variedade_cores1 atendimento2 (100.0 , 0.3 )
+
+Vendedor4 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
+
+Vendedor4 <-  divulgacao5 qualidade_produto1 (100.0 , 0.3 )
+
+Vendedor4 <-  localizacao2 formas_pagamento2 (55.6 , 2.5 )
+
+Vendedor4 <-  qualidade_produto2 provador2 (63.2 , 5.4 )
+
+Vendedor4 <-  aparencia_loja5 Vizualizacao_externa3 (100.0 , 0.6 )
+
+Vendedor4 <-  divulgacao3 provador5 (55.6 , 2.5 )
+
+Vendedor4 <-  aparencia_loja2 variedade_tamanhos3 (50.0 , 4.0 )
+
+Vendedor4 <-  qualidade_produto3 noite (50.0 , 6.2 )
+
+Vendedor4 <-  vitrine5 qualidade_produto4 (52.9 , 4.8 )
+
+Vendedor4 <-  qualidade_produto5 provador3 (57.1 , 4.0 )
+
+Vendedor4 <-  vitrine3 aparencia_loja4 (64.7 , 4.8 )
+
+Vendedor4 <-  aparencia_loja3 Vizualizacao_externa4 (50.0 , 10.8 )
+
+Vendedor4 <-  provador4 divulgacao1 (50.0 , 7.9 )
+
+Vendedor4 <-  variedade_tamanhos4 vitrine4 (50.0 , 14.2 )
+
+Vendedor3 <-  variedade_cores2 (60.0 , 1.4 )
+
+Vendedor3 <-  aparencia_lojanr localizacao2 (100.0 , 0.3 )
+
+Vendedor3 <-  divulgacaonr qualidade_produto3 (100.0 , 0.3 )
+
+Vendedor3 <-  variedade_cores1 variedade_tamanhos3 (100.0 , 0.3 )
+
+Vendedor3 <-  provador Vizualizacao_externa3 (100.0 , 0.3 )
+
+Vendedor3 <-  vitrine1 qualidade_produto2 (100.0 , 0.3 )
+
+Vendedor3 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
+
+Vendedor3 <-  divulgacao5 localizacao5 (50.0 , 0.6 )
+
+Vendedor3 <-  provador1 atendimento2 (60.0 , 1.4 )
+
+Vendedor3 <-  vitrine2 Vizualizacao_externa5 (50.0 , 0.6 )
+
+Vendedor3 <-  variedade_tamanhos1 aparencia_loja5 (100.0 , 0.3 )
+
+Vendedor3 <-  aparencia_loja1 divulgacao4 (100.0 , 0.3 )
+
+Vendedor3 <-  qualidade_produto1 provador5 (100.0 , 0.3 )
+
+Vendedor3 <-  variedade_tamanhos2 qualidade_produto5 (50.0 , 0.6 )
+
+Vendedor3 <-  provador2 variedade_tamanhos5 (75.0 , 1.1 )
+
+Vendedor3 <-  atendimento3 formas_pagamento1 (52.8 , 15.0 )
+
+Vendedor3 <-  localizacao4 NaoRetornou (62.5 , 9.1 )
+
+Vendedor2 <-  Vizualizacao_externa1 variedade_cores2 (100.0 , 0.3 )
+
+Vendedor2 <-  variedade_cores1 vitrine1 (100.0 , 0.3 )
+
+Vendedor2 <-  atendimento1 Vizualizacao_externa2 (100.0 , 0.6 )
+
+Vendedor2 <-  divulgacao5 vitrine2 (100.0 , 0.3 )
+
+Vendedor2 <-  variedade_cores3 provador1 (100.0 , 0.3 )
+
+Vendedor2 <-  atendimento2 qualidade_produto2 (50.0 , 1.1 )
+
+Vendedor2 <-  variedade_tamanhos1 formas_pagamento2 (50.0 , 1.1 )
+
+Vendedor2 <-  aparencia_loja1 provador5 (50.0 , 0.6 )
+
+Vendedor2 <-  qualidade_produto1 aparencia_loja5 (50.0 , 0.6 )
+
+Vendedor2 <-  localizacao2 vitrine4 (50.0 , 2.8 )
+
+Vendedor2 <-  variedade_tamanhos2 divulgacao3 (50.0 , 1.1 )
+
+Vendedor2 <-  atendimento5 tarde (50.0 , 1.1 )
+
+Vendedor2 <-  localizacao6 atendimento6 divulgacao2 (50.0 , 0.6 )
+
+NaoRetornou <-  variedade_coresnr (50.0 , 0.6 )
+
+NaoRetornou <-  divulgacaonr (50.0 , 1.1 )
+
+NaoRetornou <-  variedade_cores1 (100.0 , 1.4 )
+
+NaoRetornou <-  variedade_cores2 (100.0 , 1.4 )
+
+NaoRetornou <-  provador (50.0 , 1.7 )
+
+NaoRetornou <-  vitrine1 (50.0 , 1.7 )
+
+NaoRetornou <-  atendimento1 (100.0 , 2.0 )
+
+NaoRetornou <-  divulgacao5 (60.0 , 5.7 )
+
+NaoRetornou <-  variedade_cores3 (100.0 , 5.9 )
+
+NaoRetornou <-  atendimento2 (100.0 , 9.1 )
+
+NaoRetornou <-  qualidade_produto1 (56.4 , 11.0 )
+
+NaoRetornou <-  localizacao2 (90.5 , 11.9 )
+
+NaoRetornou <-  variedade_tamanhos2 (57.1 , 11.9 )
+
+NaoRetornou <-  qualidade_produto2 (52.3 , 12.5 )
+
+NaoRetornou <-  aparencia_loja5 (60.9 , 13.0 )
+
+NaoRetornou <-  divulgacao3 (54.9 , 14.4 )
+
+NaoRetornou <-  Vendedor2 (92.3 , 14.7 )
+
+NaoRetornou <-  Vizualizacao_externa3 (56.1 , 16.1 )
+
+NaoRetornou <-  provador5 (54.2 , 16.7 )
+
+NaoRetornou <-  divulgacao4 (52.5 , 17.3 )
+
+NaoRetornou <-  Vendedor1 (93.8 , 18.1 )
+
+NaoRetornou <-  provador2 (58.5 , 18.4 )
+
+NaoRetornou <-  localizacao1 (97.0 , 18.7 )
+
+NaoRetornou <-  aparencia_loja2 (56.7 , 19.0 )
+
+NaoRetornou <-  formas_pagamento2 (58.2 , 19.0 )
+
+NaoRetornou <-  variedade_tamanhos3 (50.0 , 20.4 )
+
+NaoRetornou <-  qualidade_produto3 (54.8 , 20.7 )
+
+NaoRetornou <-  Vendedor3 (100.0 , 21.8 )
+
+NaoRetornou <-  atendimento3 (83.1 , 21.8 )
+
+NaoRetornou <-  vitrine5 (64.6 , 23.2 )
+
+NaoRetornou <-  variedade_tamanhos5 (65.5 , 23.8 )
+
+NaoRetornou <-  divulgacao2 (57.0 , 24.4 )
+
+NaoRetornou <-  qualidade_produto5 (60.5 , 24.4 )
+
+NaoRetornou <-  provador3 (56.8 , 24.9 )
+
+NaoRetornou <-  noite (67.8 , 25.5 )
+
+NaoRetornou <-  vitrine3 (51.0 , 27.2 )
+
+NaoRetornou <-  aparencia_loja3 (56.7 , 27.5 )
+
+NaoRetornou <-  localizacao3 (55.4 , 28.6 )
+
+NaoRetornou <-  provador4 (58.7 , 29.5 )
+
+NaoRetornou <-  aparencia_loja4 (57.1 , 29.7 )
+
+NaoRetornou <-  qualidade_produto4 (55.0 , 30.9 )
+
+NaoRetornou <-  atendimento4 (58.8 , 32.3 )
+
+NaoRetornou <-  variedade_tamanhos4 (55.9 , 33.4 )
+
+NaoRetornou <-  Vizualizacao_externa4 (54.1 , 34.6 )
+
+NaoRetornou <-  tarde (89.5 , 35.1 )
+
+NaoRetornou <-  divulgacao1 (56.5 , 37.1 )
+
+NaoRetornou <-  vitrine4 (56.6 , 38.5 )
+
+NaoRetornou <-  Vizualizacao_externa5 (60.0 , 39.7 )
+
+NaoRetornou <-  variedade_cores4 (58.7 , 42.5 )
+
+NaoRetornou <-  formas_pagamento1 (86.7 , 51.3 )
+
+NaoRetornou <-  Vizualizacao_externa1 provador1 (100.0 , 0.3 )
+
+NaoRetornou <-  Vizualizacao_externa2 variedade_tamanhos1 (50.0 , 1.7 )
+
+formas_pagamentonr <-  qualidade_produtonr (100.0 , 0.6 )
+
+formas_pagamentonr <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+formas_pagamentonr <-  vitrinenr (100.0 , 0.6 )
+
+formas_pagamentonr <-  variedade_coresnr (100.0 , 0.6 )
+
+formas_pagamentonr <-  aparencia_lojanr (66.7 , 0.8 )
+
+formas_pagamentonr <-  localizacaonr (100.0 , 0.8 )
+
+formas_pagamentonr <-  variedade_tamanhosnr (75.0 , 1.1 )
+
+formas_pagamentonr <-  divulgacaonr (50.0 , 1.1 )
+
+formas_pagamentonr <-  atendimentonr (60.0 , 1.4 )
+
+formas_pagamentonr <-  provador (50.0 , 1.7 )
+
+formas_pagamentonr <-  aparencia_loja5 qualidade_produto5 tarde (50.0 , 0.6 )
+
+formas_pagamentonr <-  aparencia_loja2 divulgacao2 manha (50.0 , 0.6 )
+
+Vendedor1 <-  variedade_coresnr (50.0 , 0.6 )
+
+Vendedor1 <-  localizacao1 (51.5 , 18.7 )
+
+Vendedor1 <-  localizacaonr divulgacaonr (50.0 , 0.6 )
+
+Vendedor1 <-  variedade_tamanhosnr aparencia_loja5 (100.0 , 0.3 )
+
+Vendedor1 <-  formas_pagamentonr vitrine5 (100.0 , 0.3 )
+
+Vendedor1 <-  Vizualizacao_externa1 variedade_cores1 (100.0 , 0.3 )
+
+Vendedor1 <-  variedade_cores2 Vizualizacao_externa2 (100.0 , 0.3 )
+
+Vendedor1 <-  atendimentonr qualidade_produto5 (50.0 , 0.6 )
+
+Vendedor1 <-  provador noite (100.0 , 0.3 )
+
+Vendedor1 <-  atendimento1 Vizualizacao_externa3 (50.0 , 0.6 )
+
+Vendedor1 <-  divulgacao5 variedade_cores3 (100.0 , 0.3 )
+
+Vendedor1 <-  provador1 divulgacao4 (100.0 , 0.3 )
+
+Vendedor1 <-  vitrine2 atendimento2 (50.0 , 1.7 )
+
+Vendedor1 <-  variedade_tamanhos1 formas_pagamento2 (50.0 , 1.1 )
+
+Vendedor1 <-  aparencia_loja1 atendimento3 (50.0 , 1.1 )
+
+Vendedor1 <-  atendimento5 tarde (50.0 , 1.1 )
+
+divulgacaonr <-  qualidade_produtonr (50.0 , 0.6 )
+
+divulgacaonr <-  Vizualizacao_externanr (50.0 , 0.6 )
+
+divulgacaonr <-  vitrinenr (50.0 , 0.6 )
+
+divulgacaonr <-  variedade_coresnr (50.0 , 0.6 )
+
+divulgacaonr <-  localizacaonr (66.7 , 0.8 )
+
+divulgacaonr <-  variedade_tamanhosnr (50.0 , 1.1 )
+
+divulgacaonr <-  formas_pagamentonr (50.0 , 1.1 )
+
+divulgacaonr <-  atendimentonr (60.0 , 1.4 )
+
+divulgacaonr <-  provador (50.0 , 1.7 )
+
+divulgacaonr <-  aparencia_lojanr variedade_cores4 (50.0 , 0.6 )
+
+divulgacaonr <-  formas_pagamento5 localizacao2 (100.0 , 0.3 )
+
+divulgacaonr <-  aparencia_loja5 qualidade_produto3 Vendedor3 (50.0 , 0.6 )
+
+divulgacaonr <-  qualidade_produto5 tarde SimRetornou (100.0 , 0.3 )
+
+noite <-  atendimento4 (67.5 , 32.3 )
+
+noite <-  divulgacaonr qualidade_produto3 (100.0 , 0.3 )
+
+noite <-  Vizualizacao_externa1 vitrine1 (100.0 , 0.3 )
+
+noite <-  variedade_cores2 localizacao5 (100.0 , 0.3 )
+
+noite <-  provador Vendedor1 (50.0 , 0.6 )
+
+noite <-  variedade_cores6 variedade_tamanhos1 (50.0 , 0.6 )
+
+noite <-  formas_pagamento5 provador1 (100.0 , 0.3 )
+
+noite <-  divulgacao5 variedade_tamanhos3 (50.0 , 0.6 )
+
+noite <-  variedade_cores3 vitrine2 (66.7 , 0.8 )
+
+noite <-  localizacao6 Vizualizacao_externa2 (50.0 , 0.6 )
+
+noite <-  formas_pagamento3 divulgacao4 (55.6 , 2.5 )
+
+noite <-  qualidade_produto1 provador5 (100.0 , 0.3 )
+
+noite <-  localizacao2 Vendedor2 (62.5 , 2.3 )
+
+noite <-  variedade_tamanhos2 qualidade_produto5 (50.0 , 0.6 )
+
+noite <-  aparencia_loja5 Vizualizacao_externa3 (50.0 , 0.6 )
+
+noite <-  formas_pagamento4 atendimento3 (100.0 , 0.8 )
+
+noite <-  Vendedor3 variedade_tamanhos5 (52.2 , 6.5 )
+
+noite <-  vitrine5 provador4 (52.0 , 7.1 )
+
+tarde <-  qualidade_produtonr (100.0 , 0.6 )
+
+tarde <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+tarde <-  vitrinenr (100.0 , 0.6 )
+
+tarde <-  variedade_coresnr (100.0 , 0.6 )
+
+tarde <-  aparencia_lojanr (100.0 , 0.8 )
+
+tarde <-  localizacaonr (100.0 , 0.8 )
+
+tarde <-  variedade_tamanhosnr (75.0 , 1.1 )
+
+tarde <-  formas_pagamentonr (75.0 , 1.1 )
+
+tarde <-  divulgacaonr (75.0 , 1.1 )
+
+tarde <-  Vizualizacao_externa1 (60.0 , 1.4 )
+
+tarde <-  variedade_cores1 (80.0 , 1.4 )
+
+tarde <-  variedade_cores2 (80.0 , 1.4 )
+
+tarde <-  atendimentonr (100.0 , 1.4 )
+
+tarde <-  provador (66.7 , 1.7 )
+
+tarde <-  vitrine1 (50.0 , 1.7 )
+
+tarde <-  atendimento1 (100.0 , 2.0 )
+
+tarde <-  variedade_cores3 (71.4 , 5.9 )
+
+tarde <-  atendimento2 (100.0 , 9.1 )
+
+tarde <-  localizacao2 (52.4 , 11.9 )
+
+tarde <-  Vendedor1 (59.4 , 18.1 )
+
+tarde <-  provador2 (52.3 , 18.4 )
+
+tarde <-  localizacao1 (59.1 , 18.7 )
+
+tarde <-  Vendedor3 (50.6 , 21.8 )
+
+tarde <-  atendimento3 (83.1 , 21.8 )
+
+tarde <-  NaoRetornou (56.3 , 55.8 )
+
+tarde <-  formas_pagamento5 atendimento6 (100.0 , 0.3 )
+
+tarde <-  divulgacao5 Vizualizacao_externa2 (100.0 , 0.3 )
+
+tarde <-  provador1 qualidade_produto2 (60.0 , 1.4 )
+
+tarde <-  vitrine2 qualidade_produto1 (54.5 , 3.1 )
+
+tarde <-  variedade_tamanhos1 divulgacao3 (50.0 , 0.6 )
+
+tarde <-  aparencia_loja1 divulgacao4 (100.0 , 0.3 )
+
+tarde <-  variedade_tamanhos2 Vendedor2 (60.0 , 2.8 )
+
+tarde <-  aparencia_loja5 formas_pagamento2 (60.0 , 1.4 )
+
+tarde <-  Vizualizacao_externa3 provador3 (55.0 , 5.7 )
+
+tarde <-  aparencia_loja2 qualidade_produto3 (50.0 , 3.4 )
+
+tarde <-  variedade_tamanhos3 formas_pagamento1 (50.0 , 7.9 )
+
+tarde <-  divulgacao2 variedade_tamanhos4 (52.2 , 6.5 )
+
+tarde <-  localizacao6 aparencia_loja4 qualidade_produto4 (50.0 , 0.6 )
+
+SimRetornou <-  qualidade_produtonr (100.0 , 0.6 )
+
+SimRetornou <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+SimRetornou <-  vitrinenr (100.0 , 0.6 )
+
+SimRetornou <-  variedade_coresnr (50.0 , 0.6 )
+
+SimRetornou <-  aparencia_lojanr (66.7 , 0.8 )
+
+SimRetornou <-  localizacaonr (66.7 , 0.8 )
+
+SimRetornou <-  variedade_tamanhosnr (75.0 , 1.1 )
+
+SimRetornou <-  formas_pagamentonr (75.0 , 1.1 )
+
+SimRetornou <-  divulgacaonr (50.0 , 1.1 )
+
+SimRetornou <-  Vizualizacao_externa1 (60.0 , 1.4 )
+
+SimRetornou <-  atendimentonr (80.0 , 1.4 )
+
+SimRetornou <-  provador (50.0 , 1.7 )
+
+SimRetornou <-  vitrine1 (50.0 , 1.7 )
+
+SimRetornou <-  variedade_cores6 (100.0 , 2.5 )
+
+SimRetornou <-  formas_pagamento5 (100.0 , 4.8 )
+
+SimRetornou <-  localizacao6 (100.0 , 7.6 )
+
+SimRetornou <-  Vizualizacao_externa2 (51.9 , 7.6 )
+
+SimRetornou <-  localizacao5 (80.0 , 8.5 )
+
+SimRetornou <-  provador1 (58.1 , 8.8 )
+
+SimRetornou <-  vitrine2 (51.6 , 8.8 )
+
+SimRetornou <-  atendimento6 (100.0 , 9.1 )
+
+SimRetornou <-  variedade_tamanhos1 (54.5 , 9.3 )
+
+SimRetornou <-  formas_pagamento3 (100.0 , 9.9 )
+
+SimRetornou <-  aparencia_loja1 (57.1 , 9.9 )
+
+SimRetornou <-  formas_pagamento4 (100.0 , 13.9 )
+
+SimRetornou <-  variedade_tamanhos3 (50.0 , 20.4 )
+
+SimRetornou <-  localizacao4 (61.9 , 23.8 )
+
+SimRetornou <-  atendimento5 (69.8 , 24.4 )
+
+SimRetornou <-  manha (82.0 , 39.4 )
+
+SimRetornou <-  Vendedor4 (92.5 , 45.3 )
+
+SimRetornou <-  variedade_cores5 (52.2 , 45.6 )
+
+SimRetornou <-  divulgacao5 qualidade_produto1 (100.0 , 0.3 )
+
+SimRetornou <-  variedade_tamanhos2 qualidade_produto2 (50.0 , 4.0 )
+
+SimRetornou <-  aparencia_loja5 Vizualizacao_externa3 (100.0 , 0.6 )
+
+SimRetornou <-  divulgacao3 provador5 (55.6 , 2.5 )
+
+SimRetornou <-  divulgacao4 aparencia_loja2 (50.0 , 1.7 )
+
+SimRetornou <-  provador2 noite (57.1 , 2.0 )
+
+SimRetornou <-  formas_pagamento2 vitrine3 (50.0 , 5.7 )
+
+SimRetornou <-  qualidade_produto3 localizacao3 (50.0 , 7.9 )
+
+SimRetornou <-  divulgacao2 provador3 (52.4 , 5.9 )
+
+SimRetornou <-  qualidade_produto5 Vizualizacao_externa4 (50.0 , 7.9 )
+
+SimRetornou <-  provador4 divulgacao1 (50.0 , 7.9 )
+
+SimRetornou <-  variedade_tamanhos4 vitrine4 (50.0 , 14.2 )
+
+divulgacao4 <-  variedade_cores6 formas_pagamento5 (100.0 , 0.3 )
+
+divulgacao4 <-  variedade_cores3 aparencia_loja5 (100.0 , 0.3 )
+
+divulgacao4 <-  localizacao5 formas_pagamento3 (75.0 , 1.1 )
+
+divulgacao4 <-  provador1 variedade_tamanhos4 (50.0 , 0.6 )
+
+divulgacao4 <-  atendimento6 vitrine5 (100.0 , 0.3 )
+
+divulgacao4 <-  variedade_tamanhos1 provador4 (50.0 , 0.6 )
+
+divulgacao4 <-  qualidade_produto2 aparencia_loja4 (50.0 , 1.7 )
+
+divulgacao4 <-  formas_pagamento4 Vizualizacao_externa3 (50.0 , 1.1 )
+
+divulgacao4 <-  provador5 variedade_tamanhos3 (66.7 , 0.8 )
+
+divulgacao4 <-  localizacao1 manha (50.0 , 2.8 )
+
+divulgacao4 <-  atendimento4 tarde (66.7 , 0.8 )
+
+divulgacao4 <-  Vizualizacao_externa2 vitrine2 variedade_cores4 (100.0 , 0.3 )
+
+provador4 <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+provador4 <-  divulgacaonr qualidade_produto3 (100.0 , 0.3 )
+
+provador4 <-  Vizualizacao_externa1 vitrine1 (100.0 , 0.3 )
+
+provador4 <-  variedade_cores2 localizacao5 (100.0 , 0.3 )
+
+provador4 <-  variedade_cores6 formas_pagamento4 (100.0 , 0.3 )
+
+provador4 <-  formas_pagamento5 localizacao6 (50.0 , 0.6 )
+
+provador4 <-  divulgacao5 variedade_tamanhos3 (50.0 , 0.6 )
+
+provador4 <-  variedade_cores3 Vizualizacao_externa2 (100.0 , 0.3 )
+
+provador4 <-  vitrine2 divulgacao3 (50.0 , 0.6 )
+
+provador4 <-  atendimento2 aparencia_loja5 (100.0 , 0.6 )
+
+provador4 <-  atendimento6 divulgacao4 (50.0 , 0.6 )
+
+provador4 <-  formas_pagamento3 qualidade_produto1 (100.0 , 0.3 )
+
+provador4 <-  aparencia_loja1 Vendedor3 (50.0 , 1.7 )
+
+provador4 <-  variedade_tamanhos2 qualidade_produto5 (100.0 , 0.6 )
+
+provador4 <-  qualidade_produto2 noite (66.7 , 1.7 )
+
+provador4 <-  Vendedor2 atendimento4 (52.6 , 5.4 )
+
+provador4 <-  Vendedor1 Vizualizacao_externa4 (50.0 , 6.8 )
+
+provador4 <-  localizacao1 divulgacao2 (70.0 , 2.8 )
+
+provador4 <-  vitrine5 aparencia_loja4 (58.6 , 8.2 )
+
+provador3 <-  Vizualizacao_externa1 localizacao5 (100.0 , 0.3 )
+
+provador3 <-  variedade_cores1 variedade_tamanhos3 (100.0 , 0.3 )
+
+provador3 <-  atendimentonr localizacao6 (100.0 , 0.3 )
+
+provador3 <-  variedade_cores6 formas_pagamento5 (100.0 , 0.3 )
+
+provador3 <-  divulgacao5 Vizualizacao_externa2 (100.0 , 0.3 )
+
+provador3 <-  variedade_cores3 variedade_tamanhos1 (50.0 , 0.6 )
+
+provador3 <-  vitrine2 Vendedor2 (50.0 , 1.1 )
+
+provador3 <-  atendimento2 divulgacao4 (50.0 , 1.1 )
+
+provador3 <-  atendimento6 qualidade_produto2 (50.0 , 1.7 )
+
+provador3 <-  formas_pagamento3 aparencia_loja5 (50.0 , 1.1 )
+
+provador3 <-  aparencia_loja1 divulgacao3 (100.0 , 0.3 )
+
+provador3 <-  qualidade_produto1 formas_pagamento4 (50.0 , 0.6 )
+
+provador3 <-  localizacao2 Vizualizacao_externa3 (50.0 , 3.4 )
+
+provador3 <-  Vendedor1 localizacao4 (60.0 , 1.4 )
+
+provador3 <-  localizacao1 Vendedor3 (60.0 , 1.4 )
+
+provador3 <-  aparencia_loja2 variedade_tamanhos5 (55.6 , 2.5 )
+
+provador3 <-  formas_pagamento2 localizacao3 (50.0 , 4.5 )
+
+provador3 <-  atendimento3 qualidade_produto4 (60.0 , 7.1 )
+
+provador3 <-  atendimento5 tarde (75.0 , 1.1 )
+
+divulgacao3 <-  Vizualizacao_externa1 localizacao5 (100.0 , 0.3 )
+
+divulgacao3 <-  localizacao6 formas_pagamento3 (50.0 , 1.7 )
+
+divulgacao3 <-  Vizualizacao_externa2 aparencia_loja5 (50.0 , 0.6 )
+
+divulgacao3 <-  atendimento6 provador5 (100.0 , 0.3 )
+
+divulgacao3 <-  qualidade_produto1 formas_pagamento4 (50.0 , 0.6 )
+
+divulgacao3 <-  Vendedor1 localizacao4 (60.0 , 1.4 )
+
+divulgacao3 <-  localizacao1 qualidade_produto3 (62.5 , 2.3 )
+
+divulgacao3 <-  atendimento5 tarde (50.0 , 1.1 )
+
+divulgacao3 <-  formas_pagamento5 variedade_tamanhos5 vitrine3 (50.0 , 0.6 )
+
+divulgacao3 <-  variedade_cores3 vitrine2 noite (50.0 , 0.6 )
+
+divulgacao5 <-  Vizualizacao_externa1 variedade_cores2 (100.0 , 0.3 )
+
+divulgacao5 <-  formas_pagamento5 localizacao6 (50.0 , 0.6 )
+
+divulgacao5 <-  variedade_cores3 provador5 (50.0 , 0.6 )
+
+divulgacao5 <-  vitrine2 aparencia_loja5 (100.0 , 0.3 )
+
+divulgacao5 <-  Vizualizacao_externa2 atendimento6 formas_pagamento4 (100.0 , 0.3 )
+
+divulgacao5 <-  localizacao5 Vendedor3 vitrine5 (100.0 , 0.3 )
+
+divulgacao5 <-  variedade_tamanhos1 Vendedor1 aparencia_loja2 (100.0 , 0.3 )
+
+divulgacao5 <-  aparencia_loja1 qualidade_produto1 localizacao4 (100.0 , 0.3 )
+
+divulgacao5 <-  variedade_tamanhos2 qualidade_produto2 atendimento3 (50.0 , 0.6 )
+
+divulgacao5 <-  Vendedor2 localizacao1 formas_pagamento2 (66.7 , 0.8 )
+
+divulgacao5 <-  Vizualizacao_externa3 variedade_tamanhos5 qualidade_produto5 (50.0 , 0.6 )
+
+divulgacao5 <-  provador2 atendimento5 formas_pagamento1 (50.0 , 0.6 )
+
+divulgacao5 <-  vitrine3 manha NaoRetornou (50.0 , 0.6 )
+
+divulgacao5 <-  aparencia_loja3 tarde SimRetornou (50.0 , 0.6 )
+
+provador5 <-  aparencia_lojanr localizacao2 (100.0 , 0.3 )
+
+provador5 <-  formas_pagamento5 divulgacao5 (75.0 , 1.1 )
+
+provador5 <-  variedade_cores3 qualidade_produto5 (50.0 , 0.6 )
+
+provador5 <-  localizacao6 vitrine5 (50.0 , 0.6 )
+
+provador5 <-  Vizualizacao_externa2 variedade_tamanhos5 (100.0 , 0.3 )
+
+provador5 <-  localizacao5 aparencia_loja5 (66.7 , 1.7 )
+
+provador5 <-  vitrine2 formas_pagamento4 (50.0 , 1.1 )
+
+provador5 <-  Vendedor1 atendimento5 (75.0 , 2.3 )
+
+provador5 <-  localizacao1 manha (50.0 , 2.8 )
+
+qualidade_produto4 <-  variedade_tamanhosnr localizacao6 (100.0 , 0.3 )
+
+qualidade_produto4 <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+qualidade_produto4 <-  atendimentonr variedade_tamanhos1 (100.0 , 0.3 )
+
+qualidade_produto4 <-  atendimento1 Vizualizacao_externa3 (50.0 , 0.6 )
+
+qualidade_produto4 <-  variedade_cores6 formas_pagamento5 (100.0 , 0.3 )
+
+qualidade_produto4 <-  divulgacao5 Vizualizacao_externa2 (100.0 , 0.3 )
+
+qualidade_produto4 <-  variedade_cores3 aparencia_loja1 (100.0 , 0.3 )
+
+qualidade_produto4 <-  localizacao5 formas_pagamento2 (50.0 , 0.6 )
+
+qualidade_produto4 <-  provador1 formas_pagamento3 (50.0 , 0.6 )
+
+qualidade_produto4 <-  vitrine2 formas_pagamento4 (50.0 , 1.1 )
+
+qualidade_produto4 <-  atendimento2 divulgacao3 (50.0 , 1.1 )
+
+qualidade_produto4 <-  atendimento6 Vendedor2 (50.0 , 0.6 )
+
+qualidade_produto4 <-  localizacao2 vitrine4 (50.0 , 2.8 )
+
+qualidade_produto4 <-  variedade_tamanhos2 provador5 (66.7 , 0.8 )
+
+qualidade_produto4 <-  divulgacao4 vitrine3 (54.5 , 3.1 )
+
+qualidade_produto4 <-  localizacao1 provador3 (50.0 , 2.8 )
+
+qualidade_produto4 <-  Vendedor3 localizacao4 (50.0 , 5.7 )
+
+localizacao6 <-  variedade_tamanhosnr aparencia_loja1 (100.0 , 0.3 )
+
+localizacao6 <-  Vizualizacao_externa1 vitrine1 (100.0 , 0.3 )
+
+localizacao6 <-  atendimentonr variedade_tamanhos1 (100.0 , 0.3 )
+
+localizacao6 <-  variedade_cores6 provador1 (66.7 , 0.8 )
+
+localizacao6 <-  formas_pagamento5 vitrine2 (100.0 , 0.3 )
+
+localizacao6 <-  atendimento6 Vendedor2 (50.0 , 0.6 )
+
+localizacao6 <-  formas_pagamento3 variedade_tamanhos2 (100.0 , 0.3 )
+
+localizacao6 <-  qualidade_produto1 aparencia_loja2 (50.0 , 0.6 )
+
+localizacao6 <-  divulgacao5 Vizualizacao_externa3 provador5 (50.0 , 0.6 )
+
+localizacao6 <-  Vizualizacao_externa2 atendimento5 divulgacao1 (50.0 , 0.6 )
+
+localizacao6 <-  qualidade_produto2 formas_pagamento4 Vizualizacao_externa4 (50.0 , 0.6 )
+
+localizacao6 <-  divulgacao3 provador2 atendimento4 (100.0 , 0.3 )
+
+localizacao6 <-  formas_pagamento2 atendimento3 noite (50.0 , 0.6 )
+
+localizacao6 <-  variedade_tamanhos3 divulgacao2 qualidade_produto5 (50.0 , 0.6 )
+
+localizacao6 <-  aparencia_loja3 SimRetornou formas_pagamento1 (50.0 , 1.7 )
+
+qualidade_produto5 <-  variedade_coresnr (50.0 , 0.6 )
+
+qualidade_produto5 <-  divulgacaonr (50.0 , 1.1 )
+
+qualidade_produto5 <-  provador (66.7 , 1.7 )
+
+qualidade_produto5 <-  formas_pagamento5 (52.9 , 4.8 )
+
+qualidade_produto5 <-  provador5 (52.5 , 16.7 )
+
+qualidade_produto5 <-  aparencia_lojanr localizacao2 (100.0 , 0.3 )
+
+qualidade_produto5 <-  localizacaonr aparencia_loja5 (100.0 , 0.3 )
+
+qualidade_produto5 <-  variedade_tamanhosnr Vendedor1 (100.0 , 0.3 )
+
+qualidade_produto5 <-  formas_pagamentonr vitrine5 (100.0 , 0.3 )
+
+qualidade_produto5 <-  variedade_cores1 variedade_tamanhos3 (100.0 , 0.3 )
+
+qualidade_produto5 <-  variedade_cores2 localizacao5 (100.0 , 0.3 )
+
+qualidade_produto5 <-  atendimentonr variedade_tamanhos4 (100.0 , 0.3 )
+
+qualidade_produto5 <-  vitrine1 atendimento1 (50.0 , 0.6 )
+
+qualidade_produto5 <-  divulgacao5 variedade_cores3 (100.0 , 0.3 )
+
+qualidade_produto5 <-  localizacao6 Vendedor2 (50.0 , 0.6 )
+
+qualidade_produto5 <-  Vizualizacao_externa2 localizacao4 (66.7 , 0.8 )
+
+qualidade_produto5 <-  vitrine2 variedade_tamanhos5 (50.0 , 0.6 )
+
+qualidade_produto5 <-  variedade_tamanhos1 formas_pagamento3 (100.0 , 0.3 )
+
+qualidade_produto5 <-  aparencia_loja1 Vendedor3 (50.0 , 1.7 )
+
+qualidade_produto5 <-  formas_pagamento4 aparencia_loja2 (50.0 , 2.3 )
+
+qualidade_produto5 <-  divulgacao4 localizacao1 (50.0 , 4.0 )
+
+qualidade_produto5 <-  atendimento5 provador4 (50.0 , 6.2 )
+
+qualidade_produto5 <-  atendimento4 tarde (66.7 , 0.8 )
+
+qualidade_produto5 <-  manha NaoRetornou (52.0 , 7.1 )
+
+qualidade_produto2 <-  Vizualizacao_externa1 variedade_cores2 (100.0 , 0.3 )
+
+qualidade_produto2 <-  variedade_cores1 atendimento1 (50.0 , 0.6 )
+
+qualidade_produto2 <-  vitrine1 provador2 (50.0 , 0.6 )
+
+qualidade_produto2 <-  variedade_cores6 localizacao5 (50.0 , 0.6 )
+
+qualidade_produto2 <-  formas_pagamento5 atendimento6 (100.0 , 0.3 )
+
+qualidade_produto2 <-  divulgacao5 vitrine2 (100.0 , 0.3 )
+
+qualidade_produto2 <-  variedade_cores3 provador1 (100.0 , 0.3 )
+
+qualidade_produto2 <-  localizacao6 variedade_tamanhos2 (66.7 , 0.8 )
+
+qualidade_produto2 <-  Vizualizacao_externa2 aparencia_loja5 (50.0 , 0.6 )
+
+qualidade_produto2 <-  formas_pagamento3 localizacao2 (50.0 , 0.6 )
+
+qualidade_produto2 <-  Vendedor2 aparencia_loja2 (50.0 , 2.8 )
+
+qualidade_produto2 <-  divulgacao4 formas_pagamento2 (66.7 , 0.8 )
+
+localizacao4 <-  divulgacaonr qualidade_produto3 (100.0 , 0.3 )
+
+localizacao4 <-  variedade_cores2 qualidade_produto1 (50.0 , 0.6 )
+
+localizacao4 <-  atendimento1 Vendedor1 (50.0 , 0.6 )
+
+localizacao4 <-  formas_pagamento5 divulgacao5 (50.0 , 1.1 )
+
+localizacao4 <-  variedade_cores3 provador1 (100.0 , 0.3 )
+
+localizacao4 <-  Vizualizacao_externa2 aparencia_loja5 (50.0 , 0.6 )
+
+localizacao4 <-  vitrine2 variedade_tamanhos5 (50.0 , 0.6 )
+
+localizacao4 <-  atendimento6 divulgacao3 (60.0 , 1.4 )
+
+localizacao4 <-  variedade_tamanhos1 formas_pagamento3 (100.0 , 0.3 )
+
+localizacao4 <-  aparencia_loja1 provador5 (50.0 , 0.6 )
+
+localizacao4 <-  variedade_tamanhos2 vitrine5 (50.0 , 1.1 )
+
+localizacao4 <-  qualidade_produto2 formas_pagamento4 (57.1 , 2.0 )
+
+localizacao4 <-  divulgacao4 Vendedor3 (54.5 , 3.1 )
+
+localizacao4 <-  atendimento5 provador3 (52.6 , 5.4 )
+
+divulgacao2 <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+divulgacao2 <-  Vizualizacao_externa1 variedade_cores1 (100.0 , 0.3 )
+
+divulgacao2 <-  vitrine1 localizacao5 (100.0 , 0.3 )
+
+divulgacao2 <-  atendimento1 Vendedor1 (50.0 , 0.6 )
+
+divulgacao2 <-  variedade_cores6 variedade_tamanhos1 (50.0 , 0.6 )
+
+divulgacao2 <-  formas_pagamento5 provador1 (100.0 , 0.3 )
+
+divulgacao2 <-  variedade_cores3 Vendedor2 (60.0 , 1.4 )
+
+divulgacao2 <-  localizacao6 formas_pagamento2 (50.0 , 1.7 )
+
+divulgacao2 <-  Vizualizacao_externa2 aparencia_loja5 (50.0 , 0.6 )
+
+divulgacao2 <-  vitrine2 formas_pagamento4 (50.0 , 1.1 )
+
+divulgacao2 <-  atendimento2 variedade_tamanhos2 (50.0 , 2.3 )
+
+divulgacao2 <-  atendimento6 qualidade_produto2 (50.0 , 1.7 )
+
+divulgacao2 <-  aparencia_loja1 provador5 (50.0 , 0.6 )
+
+divulgacao2 <-  localizacao2 qualidade_produto4 (50.0 , 2.8 )
+
+divulgacao2 <-  Vizualizacao_externa3 aparencia_loja3 (58.8 , 4.8 )
+
+divulgacao2 <-  provador2 variedade_tamanhos5 (50.0 , 1.1 )
+
+provador2 <-  variedade_cores2 (60.0 , 1.4 )
+
+provador2 <-  atendimento1 (57.1 , 2.0 )
+
+provador2 <-  variedade_tamanhosnr localizacao6 (100.0 , 0.3 )
+
+provador2 <-  Vizualizacao_externa1 divulgacao5 (100.0 , 0.3 )
+
+provador2 <-  variedade_cores1 atendimento2 (100.0 , 0.3 )
+
+provador2 <-  vitrine1 atendimento6 (100.0 , 0.3 )
+
+provador2 <-  variedade_cores6 localizacao5 (50.0 , 0.6 )
+
+provador2 <-  formas_pagamento5 aparencia_loja1 (50.0 , 0.6 )
+
+provador2 <-  variedade_cores3 variedade_tamanhos1 (50.0 , 0.6 )
+
+provador2 <-  Vizualizacao_externa2 vitrine2 (50.0 , 2.3 )
+
+provador2 <-  formas_pagamento3 localizacao2 (50.0 , 0.6 )
+
+provador2 <-  qualidade_produto1 variedade_tamanhos2 (54.5 , 3.1 )
+
+provador2 <-  qualidade_produto2 formas_pagamento4 (71.4 , 2.0 )
+
+provador2 <-  aparencia_loja5 formas_pagamento2 (60.0 , 1.4 )
+
+provador2 <-  localizacao1 SimRetornou (50.0 , 0.6 )
+
+provador2 <-  Vendedor4 NaoRetornou (50.0 , 3.4 )
+
+localizacao5 <-  Vizualizacao_externa1 formas_pagamento4 (100.0 , 0.3 )
+
+localizacao5 <-  variedade_cores2 aparencia_loja1 (50.0 , 0.6 )
+
+localizacao5 <-  vitrine1 variedade_tamanhos2 (100.0 , 0.3 )
+
+localizacao5 <-  variedade_cores6 variedade_tamanhos1 (50.0 , 0.6 )
+
+localizacao5 <-  formas_pagamento5 provador1 (100.0 , 0.3 )
+
+localizacao5 <-  atendimento2 variedade_tamanhos5 (50.0 , 0.6 )
+
+localizacao5 <-  qualidade_produto1 divulgacao3 (100.0 , 0.3 )
+
+localizacao5 <-  aparencia_loja5 Vizualizacao_externa3 (50.0 , 0.6 )
+
+localizacao5 <-  divulgacao5 provador5 Vendedor3 (50.0 , 0.6 )
+
+localizacao5 <-  Vizualizacao_externa2 divulgacao2 noite (50.0 , 0.6 )
+
+qualidade_produto3 <-  divulgacaonr Vendedor3 (100.0 , 0.3 )
+
+qualidade_produto3 <-  Vizualizacao_externa1 atendimento6 (100.0 , 0.3 )
+
+qualidade_produto3 <-  vitrine1 formas_pagamento3 (100.0 , 0.3 )
+
+qualidade_produto3 <-  formas_pagamento5 provador1 (100.0 , 0.3 )
+
+qualidade_produto3 <-  divulgacao5 variedade_tamanhos1 (100.0 , 0.6 )
+
+qualidade_produto3 <-  variedade_cores3 vitrine2 (66.7 , 0.8 )
+
+qualidade_produto3 <-  localizacao6 atendimento3 (100.0 , 0.3 )
+
+qualidade_produto3 <-  Vizualizacao_externa2 aparencia_loja4 (50.0 , 1.1 )
+
+qualidade_produto3 <-  localizacao5 atendimento2 (50.0 , 0.6 )
+
+qualidade_produto3 <-  localizacao2 divulgacao4 (50.0 , 0.6 )
+
+qualidade_produto3 <-  variedade_tamanhos2 variedade_cores4 (50.0 , 4.0 )
+
+qualidade_produto3 <-  aparencia_loja5 Vizualizacao_externa3 (50.0 , 0.6 )
+
+qualidade_produto3 <-  divulgacao3 provador2 (60.0 , 1.4 )
+
+qualidade_produto3 <-  provador5 formas_pagamento2 (100.0 , 0.8 )
+
+qualidade_produto3 <-  Vendedor1 atendimento5 (50.0 , 2.3 )
+
+divulgacao1 <-  qualidade_produtonr (50.0 , 0.6 )
+
+divulgacao1 <-  Vizualizacao_externanr (50.0 , 0.6 )
+
+divulgacao1 <-  vitrinenr (50.0 , 0.6 )
+
+divulgacao1 <-  variedade_coresnr (50.0 , 0.6 )
+
+divulgacao1 <-  aparencia_lojanr (66.7 , 0.8 )
+
+divulgacao1 <-  variedade_tamanhosnr (50.0 , 1.1 )
+
+divulgacao1 <-  variedade_cores1 (80.0 , 1.4 )
+
+divulgacao1 <-  variedade_cores2 (80.0 , 1.4 )
+
+divulgacao1 <-  provador (50.0 , 1.7 )
+
+divulgacao1 <-  vitrine1 (66.7 , 1.7 )
+
+divulgacao1 <-  atendimento1 (85.7 , 2.0 )
+
+divulgacao1 <-  variedade_cores3 (52.4 , 5.9 )
+
+divulgacao1 <-  localizacao6 (59.3 , 7.6 )
+
+divulgacao1 <-  provador1 (67.7 , 8.8 )
+
+divulgacao1 <-  variedade_tamanhos1 (63.6 , 9.3 )
+
+divulgacao1 <-  aparencia_loja1 (60.0 , 9.9 )
+
+divulgacao1 <-  qualidade_produto1 (64.1 , 11.0 )
+
+divulgacao1 <-  localizacao2 (61.9 , 11.9 )
+
+divulgacao1 <-  variedade_tamanhos2 (59.5 , 11.9 )
+
+divulgacao1 <-  provador2 (56.9 , 18.4 )
+
+divulgacao1 <-  localizacaonr SimRetornou (50.0 , 0.6 )
+
+divulgacao1 <-  Vizualizacao_externa1 variedade_tamanhos3 (50.0 , 0.6 )
+
+divulgacao1 <-  atendimentonr Vizualizacao_externa3 (100.0 , 0.3 )
+
+divulgacao1 <-  variedade_cores6 Vizualizacao_externa2 (66.7 , 0.8 )
+
+divulgacao1 <-  formas_pagamento5 vitrine2 (100.0 , 0.3 )
+
+divulgacao1 <-  localizacao5 atendimento6 (66.7 , 0.8 )
+
+divulgacao1 <-  atendimento2 aparencia_loja5 (50.0 , 0.6 )
+
+divulgacao1 <-  formas_pagamento3 qualidade_produto2 (50.0 , 1.1 )
+
+divulgacao1 <-  formas_pagamento4 aparencia_loja2 (75.0 , 2.3 )
+
+divulgacao1 <-  Vendedor2 localizacao3 (53.8 , 3.7 )
+
+divulgacao1 <-  localizacao1 Vendedor3 (80.0 , 1.4 )
+
+divulgacao1 <-  formas_pagamento2 atendimento3 (53.3 , 4.2 )
+
+divulgacao1 <-  vitrine3 variedade_cores5 (51.6 , 8.8 )
+
+divulgacao1 <-  Vendedor4 NaoRetornou (58.3 , 3.4 )
+
+variedade_coresnr <-  qualidade_produtonr (50.0 , 0.6 )
+
+variedade_coresnr <-  Vizualizacao_externanr (50.0 , 0.6 )
+
+variedade_coresnr <-  vitrinenr (50.0 , 0.6 )
+
+variedade_coresnr <-  localizacaonr (66.7 , 0.8 )
+
+variedade_coresnr <-  variedade_tamanhosnr (50.0 , 1.1 )
+
+variedade_coresnr <-  formas_pagamentonr (50.0 , 1.1 )
+
+variedade_coresnr <-  aparencia_lojanr atendimentonr (50.0 , 0.6 )
+
+variedade_coresnr <-  divulgacaonr Vendedor1 (100.0 , 0.3 )
+
+variedade_coresnr <-  provador aparencia_loja5 (50.0 , 0.6 )
+
+provador1 <-  variedade_cores1 (60.0 , 1.4 )
+
+provador1 <-  vitrine1 (50.0 , 1.7 )
+
+provador1 <-  Vizualizacao_externa1 vitrine2 (50.0 , 0.6 )
+
+provador1 <-  variedade_cores2 atendimento2 (50.0 , 0.6 )
+
+provador1 <-  atendimento1 Vizualizacao_externa2 (100.0 , 0.6 )
+
+provador1 <-  variedade_cores6 localizacao6 (66.7 , 0.8 )
+
+provador1 <-  formas_pagamento5 variedade_tamanhos2 (100.0 , 0.3 )
+
+provador1 <-  localizacao5 variedade_tamanhos1 (50.0 , 0.6 )
+
+provador1 <-  atendimento6 qualidade_produto1 (50.0 , 1.7 )
+
+provador1 <-  localizacao1 SimRetornou (50.0 , 0.6 )
+
+provador1 <-  variedade_cores3 qualidade_produto2 Vendedor2 (50.0 , 0.6 )
+
+localizacao2 <-  variedade_cores1 (60.0 , 1.4 )
+
+localizacao2 <-  aparencia_lojanr provador5 (100.0 , 0.3 )
+
+localizacao2 <-  divulgacaonr formas_pagamento5 (100.0 , 0.3 )
+
+localizacao2 <-  variedade_cores2 provador1 (100.0 , 0.3 )
+
+localizacao2 <-  atendimentonr aparencia_loja5 (50.0 , 0.6 )
+
+localizacao2 <-  provador vitrine4 (50.0 , 0.6 )
+
+localizacao2 <-  vitrine1 atendimento1 (50.0 , 0.6 )
+
+localizacao2 <-  variedade_cores3 aparencia_loja1 (100.0 , 0.3 )
+
+localizacao2 <-  vitrine2 Vizualizacao_externa5 (50.0 , 0.6 )
+
+localizacao2 <-  atendimento2 qualidade_produto2 (50.0 , 1.1 )
+
+localizacao2 <-  variedade_tamanhos1 divulgacao3 (50.0 , 0.6 )
+
+localizacao2 <-  qualidade_produto1 aparencia_loja2 (50.0 , 0.6 )
+
+localizacao2 <-  provador2 qualidade_produto5 (66.7 , 0.8 )
+
+localizacao2 <-  Vizualizacao_externa2 variedade_tamanhos2 formas_pagamento2 (50.0 , 0.6 )
+
+atendimentonr <-  qualidade_produtonr (100.0 , 0.6 )
+
+atendimentonr <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+atendimentonr <-  vitrinenr (100.0 , 0.6 )
+
+atendimentonr <-  variedade_coresnr (100.0 , 0.6 )
+
+atendimentonr <-  aparencia_lojanr (66.7 , 0.8 )
+
+atendimentonr <-  localizacaonr (100.0 , 0.8 )
+
+atendimentonr <-  variedade_tamanhosnr (75.0 , 1.1 )
+
+atendimentonr <-  formas_pagamentonr (75.0 , 1.1 )
+
+atendimentonr <-  divulgacaonr (75.0 , 1.1 )
+
+atendimentonr <-  provador (66.7 , 1.7 )
+
+atendimentonr <-  formas_pagamento5 localizacao2 (100.0 , 0.3 )
+
+atendimentonr <-  localizacao6 tarde (50.0 , 0.6 )
+
+atendimentonr <-  variedade_tamanhos1 Vizualizacao_externa3 (50.0 , 0.6 )
+
+localizacao3 <-  vitrine1 (50.0 , 1.7 )
+
+localizacao3 <-  atendimento6 (53.1 , 9.1 )
+
+localizacao3 <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+localizacao3 <-  Vizualizacao_externa1 formas_pagamento3 (100.0 , 0.3 )
+
+localizacao3 <-  provador Vizualizacao_externa3 (100.0 , 0.3 )
+
+localizacao3 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
+
+localizacao3 <-  variedade_cores6 formas_pagamento5 (100.0 , 0.3 )
+
+localizacao3 <-  divulgacao5 Vizualizacao_externa2 (100.0 , 0.3 )
+
+localizacao3 <-  provador1 Vendedor3 (50.0 , 1.7 )
+
+localizacao3 <-  vitrine2 formas_pagamento4 (75.0 , 1.1 )
+
+localizacao3 <-  atendimento2 aparencia_loja5 (50.0 , 0.6 )
+
+localizacao3 <-  variedade_tamanhos1 Vendedor2 (50.0 , 1.1 )
+
+localizacao3 <-  aparencia_loja1 provador5 (50.0 , 0.6 )
+
+localizacao3 <-  qualidade_produto1 divulgacao4 (50.0 , 0.6 )
+
+localizacao3 <-  variedade_tamanhos2 provador3 (66.7 , 0.8 )
+
+localizacao3 <-  qualidade_produto2 divulgacao2 (60.0 , 2.8 )
+
+localizacao3 <-  Vendedor1 SimRetornou (75.0 , 1.1 )
+
+localizacao3 <-  provador2 noite (57.1 , 2.0 )
+
+localizacao3 <-  variedade_tamanhos3 qualidade_produto3 (58.8 , 4.8 )
+
+localizacao3 <-  tarde Vendedor4 (50.0 , 6.2 )
+
+variedade_tamanhosnr <-  qualidade_produtonr (100.0 , 0.6 )
+
+variedade_tamanhosnr <-  Vizualizacao_externanr (100.0 , 0.6 )
+
+variedade_tamanhosnr <-  vitrinenr (100.0 , 0.6 )
+
+variedade_tamanhosnr <-  variedade_coresnr (100.0 , 0.6 )
+
+variedade_tamanhosnr <-  aparencia_lojanr (66.7 , 0.8 )
+
+variedade_tamanhosnr <-  localizacaonr (100.0 , 0.8 )
+
+variedade_tamanhosnr <-  formas_pagamentonr (75.0 , 1.1 )
+
+variedade_tamanhosnr <-  divulgacaonr (50.0 , 1.1 )
+
+variedade_tamanhosnr <-  atendimentonr (60.0 , 1.4 )
+
+variedade_tamanhosnr <-  provador (50.0 , 1.7 )
+
+variedade_tamanhosnr <-  localizacao6 aparencia_loja1 Vizualizacao_externa3 (50.0 , 0.6 )
+
+variedade_tamanhosnr <-  aparencia_loja5 qualidade_produto5 tarde (50.0 , 0.6 )
+
+variedade_tamanhosnr <-  provador2 formas_pagamento2 atendimento5 (50.0 , 0.6 )
+
+variedade_cores1 <-  Vizualizacao_externa1 provador1 (100.0 , 0.3 )
+
+variedade_cores1 <-  vitrine1 atendimento1 (50.0 , 0.6 )
+
+variedade_cores1 <-  Vizualizacao_externa2 localizacao2 (66.7 , 0.8 )
+
+variedade_cores1 <-  variedade_tamanhos1 qualidade_produto2 (50.0 , 0.6 )
+
+variedade_cores1 <-  qualidade_produto1 aparencia_loja2 (50.0 , 0.6 )
+
+variedade_cores1 <-  vitrine2 atendimento2 aparencia_loja1 (50.0 , 0.6 )
+
+variedade_cores1 <-  variedade_tamanhos2 Vendedor1 atendimento3 (50.0 , 0.6 )
+
+variedade_cores1 <-  variedade_tamanhos3 Vendedor3 atendimento5 (50.0 , 0.6 )
+
+localizacao1 <-  Vendedor1 (53.1 , 18.1 )
+
+localizacao1 <-  Vizualizacao_externa1 variedade_cores1 (100.0 , 0.3 )
+
+localizacao1 <-  variedade_cores2 divulgacao5 (100.0 , 0.3 )
+
+localizacao1 <-  provador vitrine5 (50.0 , 0.6 )
+
+localizacao1 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
+
+localizacao1 <-  Vizualizacao_externa2 qualidade_produto2 (50.0 , 1.1 )
+
+localizacao1 <-  provador1 divulgacao4 (100.0 , 0.3 )
+
+localizacao1 <-  vitrine2 atendimento2 (50.0 , 1.7 )
+
+localizacao1 <-  aparencia_loja1 Vendedor2 (50.0 , 1.1 )
+
+localizacao1 <-  qualidade_produto1 atendimento3 (50.0 , 1.7 )
+
+localizacao1 <-  variedade_tamanhos2 qualidade_produto5 (50.0 , 0.6 )
+
+localizacao1 <-  aparencia_loja5 divulgacao3 (50.0 , 2.8 )
+
+localizacao1 <-  provador4 tarde (54.5 , 6.2 )
+
+variedade_cores2 <-  Vizualizacao_externa1 divulgacao5 (100.0 , 0.3 )
+
+variedade_cores2 <-  vitrine2 aparencia_loja5 (100.0 , 0.3 )
+
+variedade_cores2 <-  atendimento2 variedade_tamanhos1 (66.7 , 0.8 )
+
+variedade_cores2 <-  variedade_tamanhos2 qualidade_produto5 (50.0 , 0.6 )
+
+variedade_cores2 <-  Vizualizacao_externa2 aparencia_loja1 Vendedor1 (100.0 , 0.3 )
+
+variedade_cores2 <-  localizacao5 Vendedor3 noite (50.0 , 0.6 )
+
+variedade_cores2 <-  provador1 localizacao2 qualidade_produto2 (100.0 , 0.3 )
+
+variedade_cores2 <-  qualidade_produto1 provador2 atendimento3 (50.0 , 0.6 )
+
+variedade_cores2 <-  Vendedor2 formas_pagamento2 variedade_tamanhos4 (50.0 , 0.6 )
+
+variedade_cores3 <-  atendimento1 qualidade_produto1 (50.0 , 0.6 )
+
+variedade_cores3 <-  vitrine2 divulgacao3 (50.0 , 0.6 )
+
+variedade_cores3 <-  atendimento2 aparencia_loja2 (50.0 , 2.3 )
+
+variedade_cores3 <-  variedade_tamanhos1 Vizualizacao_externa3 (50.0 , 0.6 )
+
+variedade_cores3 <-  divulgacao5 provador5 Vendedor1 (50.0 , 0.6 )
+
+variedade_cores3 <-  Vizualizacao_externa2 Vendedor2 qualidade_produto5 (100.0 , 0.3 )
+
+variedade_cores3 <-  provador1 variedade_tamanhos2 Vizualizacao_externa5 (50.0 , 0.6 )
+
+variedade_cores3 <-  aparencia_loja1 localizacao2 formas_pagamento2 (50.0 , 0.6 )
+
+variedade_cores3 <-  qualidade_produto2 aparencia_loja5 divulgacao4 (100.0 , 0.3 )
+
+variedade_cores3 <-  provador2 localizacao1 Vendedor3 (100.0 , 0.3 )
+
+variedade_cores3 <-  qualidade_produto3 Vendedor4 NaoRetornou (66.7 , 0.8 )
+
+variedade_cores3 <-  atendimento3 vitrine5 localizacao4 (100.0 , 0.3 )
+
+variedade_cores3 <-  variedade_tamanhos5 atendimento5 tarde (100.0 , 0.3 )
+
+variedade_cores4 <-  qualidade_produtonr (50.0 , 0.6 )
+
+variedade_cores4 <-  Vizualizacao_externanr (50.0 , 0.6 )
+
+variedade_cores4 <-  vitrinenr (50.0 , 0.6 )
+
+variedade_cores4 <-  aparencia_lojanr (66.7 , 0.8 )
+
+variedade_cores4 <-  variedade_tamanhosnr (50.0 , 1.1 )
+
+variedade_cores4 <-  localizacao5 (50.0 , 8.5 )
+
+variedade_cores4 <-  formas_pagamento3 (54.3 , 9.9 )
+
+variedade_cores4 <-  variedade_tamanhos3 (58.3 , 20.4 )
+
+variedade_cores4 <-  qualidade_produto3 (60.3 , 20.7 )
+
+variedade_cores4 <-  atendimento3 (54.5 , 21.8 )
+
+variedade_cores4 <-  provador3 (53.4 , 24.9 )
+
+variedade_cores4 <-  vitrine3 (53.1 , 27.2 )
+
+variedade_cores4 <-  localizacao3 (50.5 , 28.6 )
+
+variedade_cores4 <-  Vizualizacao_externa4 (53.3 , 34.6 )
+
+variedade_cores4 <-  localizacaonr divulgacaonr (50.0 , 0.6 )
+
+variedade_cores4 <-  Vizualizacao_externa1 atendimento6 (100.0 , 0.3 )
+
+variedade_cores4 <-  atendimento1 Vendedor1 (50.0 , 0.6 )
+
+variedade_cores4 <-  formas_pagamento5 localizacao6 (50.0 , 0.6 )
+
+variedade_cores4 <-  divulgacao5 Vizualizacao_externa2 (100.0 , 0.3 )
+
+variedade_cores4 <-  provador1 variedade_tamanhos2 (50.0 , 3.4 )
+
+variedade_cores4 <-  vitrine2 divulgacao4 (100.0 , 0.6 )
+
+variedade_cores4 <-  atendimento2 aparencia_loja1 (60.0 , 1.4 )
+
+variedade_cores4 <-  variedade_tamanhos1 aparencia_loja5 (100.0 , 0.3 )
+
+variedade_cores4 <-  qualidade_produto1 localizacao2 (50.0 , 1.1 )
+
+variedade_cores4 <-  qualidade_produto2 divulgacao3 (71.4 , 2.0 )
+
+variedade_cores4 <-  formas_pagamento4 Vizualizacao_externa3 (50.0 , 1.1 )
+
+variedade_cores4 <-  Vendedor2 provador2 (70.0 , 2.8 )
+
+variedade_cores4 <-  provador5 Vendedor3 (50.0 , 3.4 )
+
+variedade_cores4 <-  localizacao1 divulgacao2 (50.0 , 2.8 )
+
+variedade_cores4 <-  aparencia_loja2 noite (50.0 , 4.5 )
+
+variedade_cores4 <-  formas_pagamento2 vitrine5 (70.0 , 2.8 )
+
+variedade_cores4 <-  localizacao4 aparencia_loja4 (50.0 , 6.8 )
+
+variedade_cores4 <-  atendimento5 aparencia_loja3 (55.0 , 5.7 )
+
+variedade_cores4 <-  provador4 qualidade_produto4 (51.4 , 9.9 )
+
+variedade_cores4 <-  tarde SimRetornou (53.8 , 3.7 )
+
+variedade_cores4 <-  divulgacao1 vitrine4 (50.0 , 11.3 )
+
+variedade_cores4 <-  Vendedor4 NaoRetornou (50.0 , 3.4 )
+
+variedade_cores5 <-  divulgacaonr (50.0 , 1.1 )
+
+variedade_cores5 <-  provador (50.0 , 1.7 )
+
+variedade_cores5 <-  vitrine1 (83.3 , 1.7 )
+
+variedade_cores5 <-  formas_pagamento5 (64.7 , 4.8 )
+
+variedade_cores5 <-  divulgacao5 (60.0 , 5.7 )
+
+variedade_cores5 <-  aparencia_loja5 (56.5 , 13.0 )
+
+variedade_cores5 <-  formas_pagamento4 (61.2 , 13.9 )
+
+variedade_cores5 <-  divulgacao3 (54.9 , 14.4 )
+
+variedade_cores5 <-  provador5 (71.2 , 16.7 )
+
+variedade_cores5 <-  localizacao1 (50.0 , 18.7 )
+
+variedade_cores5 <-  vitrine5 (57.3 , 23.2 )
+
+variedade_cores5 <-  localizacao4 (56.0 , 23.8 )
+
+variedade_cores5 <-  variedade_tamanhos5 (60.7 , 23.8 )
+
+variedade_cores5 <-  qualidade_produto5 (69.8 , 24.4 )
+
+variedade_cores5 <-  atendimento5 (58.1 , 24.4 )
+
+variedade_cores5 <-  provador4 (53.8 , 29.5 )
+
+variedade_cores5 <-  atendimento4 (50.9 , 32.3 )
+
+variedade_cores5 <-  vitrine4 (50.0 , 38.5 )
+
+variedade_cores5 <-  manha (56.8 , 39.4 )
+
+variedade_cores5 <-  Vizualizacao_externa5 (58.6 , 39.7 )
+
+variedade_cores5 <-  SimRetornou (53.8 , 44.2 )
+
+variedade_cores5 <-  Vendedor4 (51.9 , 45.3 )
+
+variedade_cores5 <-  formas_pagamentonr aparencia_loja2 (100.0 , 0.3 )
+
+variedade_cores5 <-  Vizualizacao_externa1 localizacao6 (100.0 , 0.3 )
+
+variedade_cores5 <-  atendimentonr variedade_tamanhos1 (100.0 , 0.3 )
+
+variedade_cores5 <-  atendimento1 Vizualizacao_externa3 (50.0 , 0.6 )
+
+variedade_cores5 <-  Vizualizacao_externa2 localizacao5 (50.0 , 0.6 )
+
+variedade_cores5 <-  provador1 formas_pagamento3 (50.0 , 0.6 )
+
+variedade_cores5 <-  vitrine2 divulgacao2 (50.0 , 3.4 )
+
+variedade_cores5 <-  atendimento2 Vendedor1 (54.5 , 3.1 )
+
+variedade_cores5 <-  atendimento6 qualidade_produto1 (66.7 , 1.7 )
+
+variedade_cores5 <-  aparencia_loja1 Vendedor2 (50.0 , 1.1 )
+
+variedade_cores5 <-  localizacao2 noite (50.0 , 3.4 )
+
+variedade_cores5 <-  variedade_tamanhos2 divulgacao4 (100.0 , 0.3 )
+
+variedade_cores5 <-  qualidade_produto2 localizacao3 (60.0 , 2.8 )
+
+variedade_cores5 <-  formas_pagamento2 aparencia_loja4 (50.0 , 4.5 )
+
+variedade_cores5 <-  aparencia_loja3 variedade_tamanhos4 (50.0 , 9.6 )
+
+formas_pagamento2 <-  variedade_tamanhosnr localizacao6 (100.0 , 0.3 )
+
+formas_pagamento2 <-  Vizualizacao_externa1 variedade_cores1 (100.0 , 0.3 )
+
+formas_pagamento2 <-  variedade_cores2 divulgacao5 (100.0 , 0.3 )
+
+formas_pagamento2 <-  vitrine1 atendimento1 (50.0 , 0.6 )
+
+formas_pagamento2 <-  variedade_cores6 localizacao5 (50.0 , 0.6 )
+
+formas_pagamento2 <-  variedade_cores3 provador1 (100.0 , 0.3 )
+
+formas_pagamento2 <-  Vizualizacao_externa2 variedade_tamanhos2 (50.0 , 1.1 )
+
+formas_pagamento2 <-  vitrine2 atendimento6 (60.0 , 1.4 )
+
+formas_pagamento2 <-  atendimento2 localizacao2 (50.0 , 1.7 )
+
+formas_pagamento2 <-  variedade_tamanhos1 Vendedor2 (50.0 , 1.1 )
+
+formas_pagamento2 <-  aparencia_loja1 qualidade_produto4 (62.5 , 2.3 )
+
+formas_pagamento2 <-  qualidade_produto1 aparencia_loja5 (50.0 , 0.6 )
+
+formas_pagamento2 <-  qualidade_produto2 Vizualizacao_externa3 (62.5 , 2.3 )
+
+formas_pagamento2 <-  divulgacao3 localizacao4 (56.3 , 4.5 )
+
+formas_pagamento2 <-  Vendedor1 provador2 (50.0 , 2.8 )
+
+formas_pagamento2 <-  localizacao1 Vendedor4 (66.7 , 1.7 )
+
+formas_pagamento2 <-  atendimento5 tarde (100.0 , 1.1 )
+
+formas_pagamento1 <-  variedade_cores1 (60.0 , 1.4 )
+
+formas_pagamento1 <-  variedade_cores2 (80.0 , 1.4 )
+
+formas_pagamento1 <-  vitrine1 (66.7 , 1.7 )
+
+formas_pagamento1 <-  atendimento1 (57.1 , 2.0 )
+
+formas_pagamento1 <-  divulgacao5 (55.0 , 5.7 )
+
+formas_pagamento1 <-  variedade_cores3 (66.7 , 5.9 )
+
+formas_pagamento1 <-  Vizualizacao_externa2 (59.3 , 7.6 )
+
+formas_pagamento1 <-  provador1 (64.5 , 8.8 )
+
+formas_pagamento1 <-  atendimento2 (68.8 , 9.1 )
+
+formas_pagamento1 <-  variedade_tamanhos1 (81.8 , 9.3 )
+
+formas_pagamento1 <-  qualidade_produto1 (66.7 , 11.0 )
+
+formas_pagamento1 <-  localizacao2 (71.4 , 11.9 )
+
+formas_pagamento1 <-  aparencia_loja5 (52.2 , 13.0 )
+
+formas_pagamento1 <-  Vendedor2 (65.4 , 14.7 )
+
+formas_pagamento1 <-  provador5 (50.8 , 16.7 )
+
+formas_pagamento1 <-  Vendedor1 (70.3 , 18.1 )
+
+formas_pagamento1 <-  localizacao1 (78.8 , 18.7 )
+
+formas_pagamento1 <-  Vendedor3 (100.0 , 21.8 )
+
+formas_pagamento1 <-  atendimento3 (68.8 , 21.8 )
+
+formas_pagamento1 <-  vitrine5 (54.9 , 23.2 )
+
+formas_pagamento1 <-  variedade_tamanhos5 (59.5 , 23.8 )
+
+formas_pagamento1 <-  divulgacao2 (52.3 , 24.4 )
+
+formas_pagamento1 <-  qualidade_produto5 (53.5 , 24.4 )
+
+formas_pagamento1 <-  noite (72.2 , 25.5 )
+
+formas_pagamento1 <-  vitrine3 (53.1 , 27.2 )
+
+formas_pagamento1 <-  aparencia_loja3 (52.6 , 27.5 )
+
+formas_pagamento1 <-  localizacao3 (55.4 , 28.6 )
+
+formas_pagamento1 <-  provador4 (56.7 , 29.5 )
+
+formas_pagamento1 <-  aparencia_loja4 (54.3 , 29.7 )
+
+formas_pagamento1 <-  qualidade_produto4 (52.3 , 30.9 )
+
+formas_pagamento1 <-  atendimento4 (57.9 , 32.3 )
+
+formas_pagamento1 <-  variedade_tamanhos4 (50.0 , 33.4 )
+
+formas_pagamento1 <-  Vizualizacao_externa4 (53.3 , 34.6 )
+
+formas_pagamento1 <-  tarde (65.3 , 35.1 )
+
+formas_pagamento1 <-  divulgacao1 (53.4 , 37.1 )
+
+formas_pagamento1 <-  vitrine4 (50.7 , 38.5 )
+
+formas_pagamento1 <-  Vizualizacao_externa5 (51.4 , 39.7 )
+
+formas_pagamento1 <-  variedade_cores4 (51.3 , 42.5 )
+
+formas_pagamento1 <-  NaoRetornou (79.7 , 55.8 )
+
+formas_pagamento1 <-  divulgacaonr qualidade_produto3 (100.0 , 0.3 )
+
+formas_pagamento1 <-  Vizualizacao_externa1 localizacao6 (100.0 , 0.3 )
+
+formas_pagamento1 <-  atendimentonr Vizualizacao_externa3 (100.0 , 0.3 )
+
+formas_pagamento1 <-  provador atendimento5 (100.0 , 0.3 )
+
+formas_pagamento1 <-  variedade_cores6 localizacao5 (50.0 , 0.6 )
+
+formas_pagamento1 <-  vitrine2 divulgacao3 (50.0 , 0.6 )
+
+formas_pagamento1 <-  atendimento6 divulgacao4 (50.0 , 0.6 )
+
+formas_pagamento1 <-  aparencia_loja1 variedade_tamanhos2 (50.0 , 1.7 )
+
+formas_pagamento4 <-  Vizualizacao_externa1 localizacao5 (100.0 , 0.3 )
+
+formas_pagamento4 <-  variedade_cores6 vitrine5 (100.0 , 0.3 )
+
+formas_pagamento4 <-  divulgacao5 Vizualizacao_externa2 (100.0 , 0.3 )
+
+formas_pagamento4 <-  localizacao6 provador3 (66.7 , 0.8 )
+
+formas_pagamento4 <-  vitrine2 provador5 (50.0 , 1.1 )
+
+formas_pagamento4 <-  atendimento6 divulgacao4 (50.0 , 0.6 )
+
+formas_pagamento4 <-  aparencia_loja1 divulgacao3 (100.0 , 0.3 )
+
+formas_pagamento4 <-  variedade_tamanhos2 aparencia_loja5 (50.0 , 0.6 )
+
+formas_pagamento4 <-  qualidade_produto2 aparencia_loja4 (50.0 , 1.7 )
+
+formas_pagamento4 <-  provador2 atendimento5 (54.5 , 3.1 )
+
+formas_pagamento4 <-  qualidade_produto5 SimRetornou (50.0 , 9.6 )
+
+formas_pagamento4 <-  atendimento4 manha (50.0 , 9.6 )
+
+formas_pagamento3 <-  Vizualizacao_externa1 atendimento6 (100.0 , 0.3 )
+
+formas_pagamento3 <-  vitrine1 provador2 (50.0 , 0.6 )
+
+formas_pagamento3 <-  localizacao6 qualidade_produto2 (50.0 , 1.1 )
+
+formas_pagamento3 <-  Vizualizacao_externa2 provador5 (50.0 , 0.6 )
+
+formas_pagamento3 <-  localizacao5 variedade_tamanhos3 (50.0 , 0.6 )
+
+formas_pagamento3 <-  vitrine2 divulgacao3 (50.0 , 0.6 )
+
+formas_pagamento3 <-  variedade_tamanhos1 qualidade_produto5 (50.0 , 0.6 )
+
+formas_pagamento3 <-  localizacao2 SimRetornou (50.0 , 1.1 )
+
+formas_pagamento5 <-  divulgacaonr localizacao2 (100.0 , 0.3 )
+
+formas_pagamento5 <-  atendimentonr aparencia_loja5 (50.0 , 0.6 )
+
+formas_pagamento5 <-  provador vitrine4 (50.0 , 0.6 )
+
+formas_pagamento5 <-  variedade_cores6 divulgacao4 (100.0 , 0.3 )
+
+formas_pagamento5 <-  divulgacao5 localizacao6 (100.0 , 0.3 )
+
+formas_pagamento5 <-  localizacao5 qualidade_produto2 (50.0 , 0.6 )
+
+formas_pagamento5 <-  vitrine2 variedade_tamanhos5 (50.0 , 0.6 )
+
+formas_pagamento5 <-  provador1 variedade_tamanhos2 noite (100.0 , 0.3 )
+
+formas_pagamento5 <-  atendimento6 provador3 Vizualizacao_externa4 (50.0 , 0.6 )
+
+formas_pagamento5 <-  aparencia_loja1 qualidade_produto1 Vizualizacao_externa3 (50.0 , 0.6 )
+
+formas_pagamento5 <-  divulgacao3 provador5 vitrine3 (50.0 , 0.6 )
+
+formas_pagamento5 <-  aparencia_loja2 qualidade_produto3 localizacao4 (50.0 , 0.6 )
+
+formas_pagamento5 <-  qualidade_produto5 tarde SimRetornou (100.0 , 0.3 )
+
+aparencia_loja2 <-  atendimento1 (57.1 , 2.0 )
+
+aparencia_loja2 <-  formas_pagamentonr variedade_tamanhos3 (100.0 , 0.3 )
+
+aparencia_loja2 <-  variedade_cores1 vitrine1 (100.0 , 0.3 )
+
+aparencia_loja2 <-  variedade_cores2 provador1 (100.0 , 0.3 )
+
+aparencia_loja2 <-  variedade_cores6 formas_pagamento5 (100.0 , 0.3 )
+
+aparencia_loja2 <-  divulgacao5 variedade_cores3 (100.0 , 0.3 )
+
+aparencia_loja2 <-  localizacao6 Vizualizacao_externa2 (50.0 , 0.6 )
+
+aparencia_loja2 <-  vitrine2 atendimento2 (50.0 , 1.7 )
+
+aparencia_loja2 <-  atendimento6 provador5 (100.0 , 0.3 )
+
+aparencia_loja2 <-  variedade_tamanhos1 localizacao2 (50.0 , 1.1 )
+
+aparencia_loja2 <-  formas_pagamento3 variedade_tamanhos2 (100.0 , 0.3 )
+
+aparencia_loja2 <-  qualidade_produto2 Vendedor2 (50.0 , 2.8 )
+
+aparencia_loja2 <-  divulgacao3 provador2 (60.0 , 1.4 )
+
+aparencia_loja2 <-  Vizualizacao_externa3 localizacao1 (66.7 , 0.8 )
+
+aparencia_loja2 <-  Vendedor1 localizacao4 (60.0 , 1.4 )
+
+aparencia_loja2 <-  vitrine3 Vizualizacao_externa5 (50.0 , 5.1 )
+
+aparencia_loja1 <-  Vizualizacao_externa1 (60.0 , 1.4 )
+
+aparencia_loja1 <-  variedade_cores1 (60.0 , 1.4 )
+
+aparencia_loja1 <-  vitrine1 (50.0 , 1.7 )
+
+aparencia_loja1 <-  variedade_tamanhosnr localizacao6 (100.0 , 0.3 )
+
+aparencia_loja1 <-  variedade_cores2 Vizualizacao_externa2 (100.0 , 0.3 )
+
+aparencia_loja1 <-  atendimento1 vitrine2 (100.0 , 0.3 )
+
+aparencia_loja1 <-  variedade_cores6 localizacao5 (50.0 , 0.6 )
+
+aparencia_loja1 <-  formas_pagamento5 qualidade_produto1 (100.0 , 0.3 )
+
+aparencia_loja1 <-  divulgacao5 atendimento6 (50.0 , 0.6 )
+
+aparencia_loja1 <-  atendimento2 provador2 (50.0 , 2.8 )
+
+aparencia_loja1 <-  variedade_tamanhos1 formas_pagamento3 (100.0 , 0.3 )
+
+aparencia_loja1 <-  variedade_tamanhos2 qualidade_produto5 (50.0 , 0.6 )
+
+aparencia_loja1 <-  variedade_cores3 Vizualizacao_externa3 Vendedor4 (50.0 , 0.6 )
+
+aparencia_loja4 <-  variedade_cores2 qualidade_produto1 (50.0 , 0.6 )
+
+aparencia_loja4 <-  atendimentonr localizacao6 (100.0 , 0.3 )
+
+aparencia_loja4 <-  provador Vizualizacao_externa3 (100.0 , 0.3 )
+
+aparencia_loja4 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
+
+aparencia_loja4 <-  variedade_cores6 localizacao5 (50.0 , 0.6 )
+
+aparencia_loja4 <-  formas_pagamento5 provador5 (57.1 , 2.0 )
+
+aparencia_loja4 <-  divulgacao5 variedade_tamanhos1 (50.0 , 0.6 )
+
+aparencia_loja4 <-  provador1 formas_pagamento3 (50.0 , 0.6 )
+
+aparencia_loja4 <-  vitrine2 divulgacao3 (50.0 , 0.6 )
+
+aparencia_loja4 <-  atendimento2 variedade_tamanhos5 (50.0 , 0.6 )
+
+aparencia_loja4 <-  atendimento6 divulgacao4 (100.0 , 0.6 )
+
+aparencia_loja4 <-  localizacao2 atendimento5 (66.7 , 1.7 )
+
+aparencia_loja4 <-  variedade_tamanhos2 atendimento3 (55.6 , 2.5 )
+
+aparencia_loja4 <-  formas_pagamento4 provador4 (50.0 , 4.0 )
+
+aparencia_loja4 <-  localizacao1 SimRetornou (50.0 , 0.6 )
+
+aparencia_loja4 <-  Vendedor3 provador3 (59.1 , 6.2 )
+
+aparencia_loja4 <-  localizacao3 vitrine4 (50.0 , 10.8 )
+
+aparencia_loja3 <-  variedade_cores1 variedade_tamanhos3 (100.0 , 0.3 )
+
+aparencia_loja3 <-  provador Vendedor1 (50.0 , 0.6 )
+
+aparencia_loja3 <-  vitrine1 qualidade_produto2 (100.0 , 0.3 )
+
+aparencia_loja3 <-  atendimento1 variedade_cores3 (50.0 , 0.6 )
+
+aparencia_loja3 <-  variedade_cores6 formas_pagamento4 (100.0 , 0.3 )
+
+aparencia_loja3 <-  formas_pagamento5 localizacao6 (50.0 , 0.6 )
+
+aparencia_loja3 <-  divulgacao5 Vizualizacao_externa2 (100.0 , 0.3 )
+
+aparencia_loja3 <-  localizacao5 provador1 (50.0 , 1.1 )
+
+aparencia_loja3 <-  vitrine2 noite (50.0 , 1.7 )
+
+aparencia_loja3 <-  atendimento2 qualidade_produto1 (55.6 , 2.5 )
+
+aparencia_loja3 <-  atendimento6 Vendedor2 (50.0 , 0.6 )
+
+aparencia_loja3 <-  variedade_tamanhos1 divulgacao3 (50.0 , 0.6 )
+
+aparencia_loja3 <-  formas_pagamento3 localizacao4 (54.5 , 3.1 )
+
+aparencia_loja3 <-  localizacao2 provador5 (50.0 , 2.3 )
+
+aparencia_loja3 <-  variedade_tamanhos2 divulgacao2 (54.5 , 3.1 )
+
+aparencia_loja3 <-  divulgacao4 tarde (57.1 , 4.0 )
+
+aparencia_loja3 <-  localizacao1 qualidade_produto3 (50.0 , 2.3 )
+
+aparencia_loja3 <-  formas_pagamento2 vitrine5 (60.0 , 2.8 )
+
+aparencia_loja3 <-  Vendedor3 vitrine3 (56.3 , 4.5 )
+
+aparencia_loja5 <-  variedade_coresnr (50.0 , 0.6 )
+
+aparencia_loja5 <-  divulgacaonr (75.0 , 1.1 )
+
+aparencia_loja5 <-  localizacaonr Vendedor1 (100.0 , 0.3 )
+
+aparencia_loja5 <-  variedade_tamanhosnr vitrine5 (100.0 , 0.3 )
+
+aparencia_loja5 <-  formas_pagamentonr qualidade_produto5 (100.0 , 0.3 )
+
+aparencia_loja5 <-  Vizualizacao_externa1 variedade_cores2 (100.0 , 0.3 )
+
+aparencia_loja5 <-  atendimentonr provador (50.0 , 1.1 )
+
+aparencia_loja5 <-  formas_pagamento5 localizacao2 (100.0 , 0.3 )
+
+aparencia_loja5 <-  divulgacao5 vitrine2 (100.0 , 0.3 )
+
+aparencia_loja5 <-  variedade_cores3 divulgacao4 (100.0 , 0.3 )
+
+aparencia_loja5 <-  localizacao5 atendimento3 (50.0 , 0.6 )
+
+aparencia_loja5 <-  formas_pagamento4 Vizualizacao_externa3 (50.0 , 1.1 )
+
+aparencia_loja5 <-  Vizualizacao_externa2 qualidade_produto2 divulgacao3 (100.0 , 0.3 )
 

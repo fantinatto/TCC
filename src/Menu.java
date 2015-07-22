@@ -18,13 +18,19 @@ import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 
 import javax.swing.JCheckBoxMenuItem;
+
 import org.eclipse.wb.swing.FocusTraversalOnArray;
+
 import java.awt.Component;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 
 
 
-public class Menu extends JFrame {
+public class Menu extends JFrame  {
+	
 	JPanel panel = new JPanel();
 	JDesktopPane desktopPane = new JDesktopPane();
 	public Arquivo arq = new Arquivo();
@@ -36,10 +42,11 @@ public class Menu extends JFrame {
 
 	/**
 	 * Launch the application.
+	 * @throws IOException 
 	 */	
 
 	public static void main(String[] args) {
-		
+
 		EventQueue.invokeLater(new Runnable() {
 			
 			public void run() {

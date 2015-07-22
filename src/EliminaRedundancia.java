@@ -4,11 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.text.Normalizer;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -164,18 +160,20 @@ public class EliminaRedundancia {
 		
 		/*Pecorre todo o arquivo e salva em mapPalavras os antesscessores encontrados*/	
 		while(curLine != null){
-			if(this.Array1[linha] != true){	
-				String minusculo = curLine.toLowerCase();	//caracter em minusculo
-				//minusculo = Normalizer.normalize(minusculo, Normalizer.Form.NFD);
-				//minusculo = minusculo.replaceAll("[^\\p{ASCII}]", "");	//elimina palavras com acento (não letras)
-				Pattern p = Pattern.compile("(" + vetItemsetX + ")");
-				Matcher m = p.matcher(minusculo);				
-				/*percorre linha até achar o token, caso não exista sai do while*/
-				if(m.find()){					
-					this.Array2[linha] = true;
-					//String token = m.group();							
-					//System.out.println(token);					
-				}												
+			if(this.Array1[linha] != true){
+				if(this.Array2[linha] != true){
+					String minusculo = curLine.toLowerCase();	//caracter em minusculo
+					//minusculo = Normalizer.normalize(minusculo, Normalizer.Form.NFD);
+					//minusculo = minusculo.replaceAll("[^\\p{ASCII}]", "");	//elimina palavras com acento (não letras)
+					Pattern p = Pattern.compile("(" + vetItemsetX + ")");
+					Matcher m = p.matcher(minusculo);				
+					/*percorre linha até achar o token, caso não exista sai do while*/
+					if(m.find()){					
+						this.Array2[linha] = true;
+						//String token = m.group();							
+						//System.out.println(token);					
+					}	
+				}
 			}		
 			linha++;
 			curLine = txtBuffer.readLine();	//próxima linha

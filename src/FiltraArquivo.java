@@ -76,10 +76,14 @@ public class FiltraArquivo extends JInternalFrame {
 		StartGeneralizaRegras.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
+				long startTime = System.currentTimeMillis();
+				long estimatedTime = System.currentTimeMillis() - startTime;
+				System.out.println(System.currentTimeMillis() - startTime);
 				ar.geradorArvores(lista);				
 				for (int i = 0; i < ar.regrasFiltradas.size(); i++) {					
 					textAreaRegrasGeneralizadas.append(ar.regrasFiltradas.get(i)+" " + "" + "\n");
 				}
+				System.out.println(System.currentTimeMillis() - startTime);
 				label_2.setText("Regras Generalizadas: "+String.valueOf(ar.regrasFiltradas.size()));
 			}
 		});
@@ -89,7 +93,11 @@ public class FiltraArquivo extends JInternalFrame {
 		
 		JButton btnExport = new JButton("Export");
 		btnExport.addActionListener(new ActionListener() {
+			
 			public void actionPerformed(ActionEvent arg0) {
+				long startTime = System.currentTimeMillis();
+				long estimatedTime = System.currentTimeMillis() - startTime;
+				System.out.println(System.currentTimeMillis() - startTime);
 								
 				File arquivo = new File("print.txt");
 				try(PrintWriter pw = new PrintWriter(arquivo) ){
@@ -99,7 +107,7 @@ public class FiltraArquivo extends JInternalFrame {
 					  pw.println(ar.regrasFiltradas.get(i) + "\n");
 						
 					}
-								  
+				  System.out.println(System.currentTimeMillis() - startTime);			  
 				}catch(IOException ex){
 				  ex.printStackTrace();
 				}

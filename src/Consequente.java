@@ -1,14 +1,9 @@
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.Normalizer;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -21,11 +16,12 @@ public class Consequente {
 		String curLine;		
 		int numTotalRegras = 0;
 		mapConsequente = new HashMap<String,Integer>();						
-		FileReader txtFile = new FileReader("C:/Users/Vinicius/Desktop/fantinatto/academico/TCC/Base de Regras/loja4");
+		//FileReader txtFile = new FileReader("C:/Users/Vinicius/Desktop/fantinatto/academico/TCC/Base de Regras/loja4");
 		//FileReader txtFile = new FileReader("C:/Users/Vinicius/Desktop/fantinatto/academico/TCC/alg/dataminingSE/materias.txt");
+		FileReader txtFile = new FileReader("C:/Users/Vinicius/Desktop/fantinatto/academico/TCC/alg/dataminingSE/loja5");
 		BufferedReader txtBuffer = new BufferedReader(txtFile);
 		curLine = txtBuffer.readLine();
-	
+		
 			while(curLine != null){
 				numTotalRegras++;				
 				String minusculo = curLine.toLowerCase(); 	// normaliza em minusculo e sem acento	
@@ -58,8 +54,7 @@ public class Consequente {
 						bw.write("#@"+curLine.split("<- ")[1].replaceAll("[^\\p{ASCII}]", ""));
 						bw.newLine();	//quebra de linha	
 						bw.close(); //fecha os recursos
-						arq.close();
-						
+						arq.close();						
 						mapConsequente.put(token,1);
 					}
 				}			
@@ -72,17 +67,16 @@ public class Consequente {
 		FileWriter logfile = new FileWriter( "C:\\Temp\\grentx\\log.txt", true );
 		BufferedWriter bufLogFile = new BufferedWriter(logfile);
 		int itemset;
-		Date date = new Date();
-		SimpleDateFormat ft = 
-			      new SimpleDateFormat("yyyy.MM.dd 'at' hh:mm:ss:SS");
+		long startTime = System.currentTimeMillis();
+		long estimatedTime = System.currentTimeMillis() - startTime;
     
 		String finalFile = "C:\\Temp\\grentx\\regras.txt";
 		String dirFile = "C:/Temp/grentx/groupedRules/";
 		//assim temos o nome de todos os arquivos criados junto a quantidade de linhas de cada uma  mapConsequente
-		bufLogFile.write(ft.format(date) + "  Inicia Agupa consequente");
+		bufLogFile.write(System.currentTimeMillis() - startTime + "  Inicia Agupa consequente");
 		bufLogFile.newLine();
 		AgrupaConsequente();
-		bufLogFile.write(ft.format(date) + "  Final Agupa consequente");
+		bufLogFile.write(System.currentTimeMillis() - startTime + "  Final Agupa consequente");
 		bufLogFile.newLine();
 		
 		//cria arquivo final
@@ -94,7 +88,7 @@ public class Consequente {
 		for (Map.Entry<String,Integer> entry: mapConsequente.entrySet()){
 			int existemRegras = 0;
 			itemset = 1;
-			bufLogFile.write(ft.format(date) +"  " +entry.getKey());
+			bufLogFile.write(System.currentTimeMillis() - startTime +"  " +entry.getKey());
 			bufLogFile.newLine();
 								
 			EliminaRedundancia er = new EliminaRedundancia();
@@ -113,10 +107,10 @@ public class Consequente {
 					er.organizaVetorRedundancia();
 				itemset++;
 				
-			}while(existemRegras > 0 || itemset < 5);
+			}while(existemRegras > 0 || itemset < 3);
 			er.escreveArquivoSemRedundancia();
 		}
-		bufLogFile.write(ft.format(date) + "  ##FIM##");
+		bufLogFile.write(System.currentTimeMillis() - startTime + "  ##FIM##");
 		bufLogFile.newLine();
 		
 		bufLogFile.close();
@@ -130,4 +124,12 @@ public class Consequente {
 				System.out.println(entry.getKey() + "\tfreq=" + entry.getValue());
 			}
 */
+
+/*
+ * 
+ * Artigo explicando API de I/O: 
+ * * (http://www.guj.com.br/articles/118)
+ * 
+ * 
+ */ 
 		
