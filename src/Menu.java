@@ -16,21 +16,13 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
-
-import javax.swing.JCheckBoxMenuItem;
-
 import org.eclipse.wb.swing.FocusTraversalOnArray;
 
 import java.awt.Component;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 
+public class Menu extends JFrame {
 
-
-
-public class Menu extends JFrame  {
-	
 	JPanel panel = new JPanel();
 	JDesktopPane desktopPane = new JDesktopPane();
 	public Arquivo arq = new Arquivo();
@@ -42,13 +34,14 @@ public class Menu extends JFrame  {
 
 	/**
 	 * Launch the application.
-	 * @throws IOException 
-	 */	
+	 * 
+	 * @throws IOException
+	 */
 
 	public static void main(String[] args) {
 
 		EventQueue.invokeLater(new Runnable() {
-			
+
 			public void run() {
 				try {
 					Menu frame = new Menu();
@@ -65,23 +58,23 @@ public class Menu extends JFrame  {
 	 */
 	public Menu() {
 		inicializaMenu();
-		initializePane();		
-		
+		initializePane();
+
 	}
-	
-	private void inicializaMenu(){
+
+	private void inicializaMenu() {
 		JMenuBar menuBar = new JMenuBar();
 		JMenu menu = new JMenu("File");
-				
-		setJMenuBar(menuBar);		
+
+		setJMenuBar(menuBar);
 		menuBar.add(menu);
-		
-		firstImg = new ImageIcon("img/menu2.png");		
+
+		firstImg = new ImageIcon("img/menu2.png");
 		ImagePanel = new JLabel(firstImg);
 		ImagePanel.setForeground(UIManager.getColor("Button.background"));
-		ImagePanel.setBounds(1, 2, 1024, 725);		
+		ImagePanel.setBounds(1, 2, 1024, 725);
 		desktopPane.add(ImagePanel);
-			
+
 		JButton btnNewButton = new JButton("Abrir");
 		btnNewButton.addActionListener(new ActionListener() {
 			@SuppressWarnings("deprecation")
@@ -90,81 +83,79 @@ public class Menu extends JFrame  {
 						"C:/Users/Vinicius/Desktop/fantinatto/academico/TCC/alg/dataminingSE");
 				// seleciona um arquivo por vez
 				jf.setMultiSelectionEnabled(false);
-					            
+
 				// mostra janela para secelionar file
 				int escolha = jf.showOpenDialog(null);
-							
+
 				// se escolheu algum arquivo
-				if (escolha == JFileChooser.APPROVE_OPTION) {										
+				if (escolha == JFileChooser.APPROVE_OPTION) {
 					/*
-					textAreaTitulo.append("Regra: "
-							+ jf.getSelectedFile().getName());
-					// aloca classe Arquivo
+					 * textAreaTitulo.append("Regra: " +
+					 * jf.getSelectedFile().getName()); // aloca classe Arquivo
 					 */
-					
-					//initializeInternalFrame();
+					long startTime = System.currentTimeMillis();
+					long estimatedTime = System.currentTimeMillis() - startTime;
+					System.out.println(System.currentTimeMillis() - startTime);
+					// initializeInternalFrame();
 					carregaArquivo ca = new carregaArquivo();
 					ca.setVisible(true);
 					arq.Arquivo(jf.getSelectedFile().getPath());
-					//ca.setCaminho(jf.getSelectedFile().getPath());
+					// ca.setCaminho(jf.getSelectedFile().getPath());
 					desktopPane.add(ca);
-							        
-				} else;
-					//textAreaTitulo.append("Erro ao abrir o arquivo!");
-				
+					System.out.println(System.currentTimeMillis() - startTime);
+
+				} else
+					;
+				// textAreaTitulo.append("Erro ao abrir o arquivo!");
+
 			}
-		});			
-		
+		});
+
 		menu.add(btnNewButton);
-		
+
 		JMenu mnTools = new JMenu("Tools");
 		menuBar.add(mnTools);
-		
+
 		JButton btnGeneralizar = new JButton("Generalizar");
 		btnGeneralizar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				FiltraArquivo filtraArq = new FiltraArquivo();
 				filtraArq.setLista(arq.lista);
-				filtraArq.setVisible(true);				
+				filtraArq.setVisible(true);
 				desktopPane.add(filtraArq);
 			}
 		});
 		mnTools.add(btnGeneralizar);
 	}
-		
-	private void initializePane(){	
+
+	private void initializePane() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1029, 800);				
-		
+		setBounds(100, 100, 1029, 800);
+
 		GroupLayout groupLayout = new GroupLayout(getContentPane());
-		groupLayout.setHorizontalGroup(
-			groupLayout.createParallelGroup(Alignment.LEADING)
-				.addComponent(panel, GroupLayout.DEFAULT_SIZE, 1011, Short.MAX_VALUE)
-		);
-		groupLayout.setVerticalGroup(
-			groupLayout.createParallelGroup(Alignment.LEADING)
-				.addComponent(panel, GroupLayout.DEFAULT_SIZE, 727, Short.MAX_VALUE)
-		);		
-		
+		groupLayout.setHorizontalGroup(groupLayout.createParallelGroup(
+				Alignment.LEADING).addComponent(panel,
+				GroupLayout.DEFAULT_SIZE, 1011, Short.MAX_VALUE));
+		groupLayout.setVerticalGroup(groupLayout.createParallelGroup(
+				Alignment.LEADING).addComponent(panel,
+				GroupLayout.DEFAULT_SIZE, 727, Short.MAX_VALUE));
+
 		desktopPane.setBackground(UIManager.getColor("Button.background"));
 		GroupLayout gl_panel = new GroupLayout(panel);
-		gl_panel.setHorizontalGroup(
-			gl_panel.createParallelGroup(Alignment.LEADING)
-				.addComponent(desktopPane, GroupLayout.DEFAULT_SIZE, 1011, Short.MAX_VALUE)
-		);
-		
-		gl_panel.setVerticalGroup(
-			gl_panel.createParallelGroup(Alignment.LEADING)
-				.addComponent(desktopPane, GroupLayout.DEFAULT_SIZE, 727, Short.MAX_VALUE)
-		);
-		
-		//carrega e insere imagem no Jlabel	
-		
+		gl_panel.setHorizontalGroup(gl_panel.createParallelGroup(
+				Alignment.LEADING).addComponent(desktopPane,
+				GroupLayout.DEFAULT_SIZE, 1011, Short.MAX_VALUE));
+
+		gl_panel.setVerticalGroup(gl_panel.createParallelGroup(
+				Alignment.LEADING).addComponent(desktopPane,
+				GroupLayout.DEFAULT_SIZE, 727, Short.MAX_VALUE));
+
+		// carrega e insere imagem no Jlabel
+
 		getContentPane().setLayout(groupLayout);
 		panel.setLayout(gl_panel);
-		getContentPane().setFocusTraversalPolicy(new FocusTraversalOnArray(new Component[]{panel, desktopPane, ImagePanel}));
+		getContentPane().setFocusTraversalPolicy(
+				new FocusTraversalOnArray(new Component[] { panel, desktopPane,
+						ImagePanel }));
 	}
 }
-
-
-

@@ -48,7 +48,7 @@ public class Grafo {
 		
 		i = 0;
 		
-		while (i < lista.size()) {
+		while (i < lista.size()) {			
 			int z = 0;
 			String aux = new String(lista.get(i).Id + " <-");
 			System.out.println();

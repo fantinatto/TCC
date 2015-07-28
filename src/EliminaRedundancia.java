@@ -29,14 +29,14 @@ import java.util.regex.Pattern;
  */
 
 public class EliminaRedundancia {
-	public boolean []Array1;	//vetor de itensets selecionados
-	public boolean []Array2;	//vetor de regras eliminadas
+	public boolean[] Array1; // vetor de itensets selecionados
+	public boolean[] Array2; // vetor de regras eliminadas
 	public String mkdfile;
 	public String nomeRegra;
 	public String vetItemsetX = "";
 	String arquivoFinal;
-	Map<String,Integer> mapPalavras;
-	
+	Map<String, Integer> mapPalavras;
+
 	public String getNomeRegra() {
 		return nomeRegra;
 	}
@@ -52,12 +52,12 @@ public class EliminaRedundancia {
 	public void setArquivoFinal(String arquivoFinal) {
 		this.arquivoFinal = arquivoFinal;
 	}
-	
+
 	public void alocaArray(int tvet) {
 		this.Array1 = new boolean[tvet];
 		this.Array2 = new boolean[tvet];
 	}
-	
+
 	public String getMkdfile() {
 		return mkdfile;
 	}
@@ -65,170 +65,193 @@ public class EliminaRedundancia {
 	public void setMkdfile(String mkdfile) {
 		this.mkdfile = mkdfile;
 	}
-	
-	//P1		
-	/*Encontra redundancia itemset*/		
-	public int redundanciaItemset(int itens) throws IOException{
-		int numRegras = 0,
-				linha = 0;
+
+	// P1
+	/* Encontra redundancia itemset */
+	public int redundanciaItemset(int itens) throws IOException {
+		int numRegras = 0, linha = 0;
 		FileReader txtFile;
 		BufferedReader txtBuffer = null;
 		String curLine = null;
-		mapPalavras = new HashMap<String,Integer>();
-		
+		mapPalavras = new HashMap<String, Integer>();
+
 		try {
 			txtFile = new FileReader(this.mkdfile);
 			txtBuffer = new BufferedReader(txtFile);
-			curLine = txtBuffer.readLine();	
-			
+			curLine = txtBuffer.readLine();
+
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();	
+			e.printStackTrace();
 		}
-		
-		/*Pecorre todo o arquivo e salva em mapPalavras os antesscessores encontrados*/	
-		while(curLine != null){			
-			if(this.Array2[linha] != true){ //verifica se já não foi eliminado
-				if(this.Array1[linha] != true){ //verifica se já não foi inserido			
-					String minusculo = curLine.toLowerCase();	//caracter em minusculo
-					//minusculo = Normalizer.normalize(minusculo, Normalizer.Form.NFD);
-					//minusculo = minusculo.replaceAll("[^\\p{ASCII}]", "");	//elimina palavras com acento (não letras)
-					Pattern p = Pattern.compile("(#@((\\w+)(\\s+)){" +itens+ "})(\\()"); //expreção regular
-					Matcher m = p.matcher(minusculo);			
-					/*percorre linha até achar o token, caso não exista sai do while*/
-					if(m.find()){
+
+		/*
+		 * Pecorre todo o arquivo e salva em mapPalavras os antesscessores
+		 * encontrados
+		 */
+		while (curLine != null) {
+			if (this.Array2[linha] != true) { // verifica se já não foi
+												// eliminado
+				if (this.Array1[linha] != true) { // verifica se já não foi
+													// inserido
+					String minusculo = curLine.toLowerCase(); // caracter em
+																// minusculo
+					// minusculo = Normalizer.normalize(minusculo,
+					// Normalizer.Form.NFD);
+					// minusculo = minusculo.replaceAll("[^\\p{ASCII}]", "");
+					// //elimina palavras com acento (não letras)
+					Pattern p = Pattern.compile("(#@((\\w+)(\\s+)){" + itens
+							+ "})(\\()"); // expreção regular
+					Matcher m = p.matcher(minusculo);
+					/*
+					 * percorre linha até achar o token, caso não exista sai do
+					 * while
+					 */
+					if (m.find()) {
 						this.Array1[linha] = true;
-						String token = m.group();	
-						token = token.substring(0, token.length()-2);
-						final Integer freq = mapPalavras.get(token);					
-						//System.out.println(token);
-						mapPalavras.put(token.split("#@")[1],numRegras);
+						String token = m.group();
+						token = token.substring(0, token.length() - 2);
+						final Integer freq = mapPalavras.get(token);
+						// System.out.println(token);
+						mapPalavras.put(token.split("#@")[1], numRegras);
 						numRegras++;
-					}					
+					}
 				}
 			}
 			linha++;
-			curLine = txtBuffer.readLine();	//próxima linha
-		}					
+			curLine = txtBuffer.readLine(); // próxima linha
+		}
 		txtBuffer.close();
-		if(this.mapPalavras.size() > 0)
+		if (this.mapPalavras.size() > 0)
 			insereRegrasNoVetor();
-		return numRegras;			
+		return numRegras;
 	}
-	
-	//p1.1
-	public void insereRegrasNoVetor(){		
-		
-		//insere todos os itemsets 
-		for (Map.Entry<String,Integer> entry: this.mapPalavras.entrySet()){
-			//se existir mais de 1 item
-			if(entry.getKey().split(" ").length > 1){
+
+	// p1.1
+	public void insereRegrasNoVetor() {
+
+		// insere todos os itemsets
+		for (Map.Entry<String, Integer> entry : this.mapPalavras.entrySet()) {
+			// se existir mais de 1 item
+			if (entry.getKey().split(" ").length > 1) {
 				this.vetItemsetX = this.vetItemsetX.concat("(");
-				for(int i = 0; i < entry.getKey().split(" ").length; i++){				
-					this.vetItemsetX = this.vetItemsetX.concat("(" + entry.getKey().split(" ")[i] + ")");
-					this.vetItemsetX = this.vetItemsetX.concat("((\\w)|(\\s))*");
+				for (int i = 0; i < entry.getKey().split(" ").length; i++) {
+					this.vetItemsetX = this.vetItemsetX.concat("("
+							+ entry.getKey().split(" ")[i] + ")");
+					this.vetItemsetX = this.vetItemsetX
+							.concat("((\\w)|(\\s))*");
 				}
-				this.vetItemsetX = this.vetItemsetX.substring(0, this.vetItemsetX.length()-12);
+				this.vetItemsetX = this.vetItemsetX.substring(0,
+						this.vetItemsetX.length() - 12);
 				this.vetItemsetX = this.vetItemsetX.concat(")");
 				this.vetItemsetX = this.vetItemsetX.concat("|");
+			} else {
+				this.vetItemsetX = this.vetItemsetX.concat("("
+						+ entry.getKey().substring(0,
+								entry.getKey().length() - 1) + ")|");
 			}
-			else{
-				this.vetItemsetX = this.vetItemsetX.concat("("+entry.getKey().substring(0, entry.getKey().length()-1)+")|");
-			}
-			
+
 		}
-		this.vetItemsetX = this.vetItemsetX.substring(0, this.vetItemsetX.length()-1);
-		
+		this.vetItemsetX = this.vetItemsetX.substring(0,
+				this.vetItemsetX.length() - 1);
+
 	}
-	
-	//P2
-	public void organizaVetorRedundancia() throws IOException{
+
+	// P2
+	public void organizaVetorRedundancia() throws IOException {
 		int linha = 0;
 		FileReader txtFile = null;
 		BufferedReader txtBuffer = null;
-		String curLine = null;		
-		
+		String curLine = null;
+
 		try {
 			txtFile = new FileReader(this.mkdfile);
 			txtBuffer = new BufferedReader(txtFile);
-			curLine = txtBuffer.readLine();	
-			
+			curLine = txtBuffer.readLine();
+
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();	
-		}				
-		
-		/*Pecorre todo o arquivo e salva em mapPalavras os antesscessores encontrados*/	
-		while(curLine != null){
-			if(this.Array1[linha] != true){
-				if(this.Array2[linha] != true){
-					String minusculo = curLine.toLowerCase();	//caracter em minusculo
-					//minusculo = Normalizer.normalize(minusculo, Normalizer.Form.NFD);
-					//minusculo = minusculo.replaceAll("[^\\p{ASCII}]", "");	//elimina palavras com acento (não letras)
+			e.printStackTrace();
+		}
+
+		/*
+		 * Pecorre todo o arquivo e salva em mapPalavras os antesscessores
+		 * encontrados
+		 */
+		while (curLine != null) {
+			if (this.Array1[linha] != true) {
+				if (this.Array2[linha] != true) {
+					String minusculo = curLine.toLowerCase(); // caracter em
+																// minusculo
+					// minusculo = Normalizer.normalize(minusculo,
+					// Normalizer.Form.NFD);
+					// minusculo = minusculo.replaceAll("[^\\p{ASCII}]", "");
+					// //elimina palavras com acento (não letras)
 					Pattern p = Pattern.compile("(" + vetItemsetX + ")");
-					Matcher m = p.matcher(minusculo);				
-					/*percorre linha até achar o token, caso não exista sai do while*/
-					if(m.find()){					
+					Matcher m = p.matcher(minusculo);
+					/*
+					 * percorre linha até achar o token, caso não exista sai do
+					 * while
+					 */
+					if (m.find()) {
 						this.Array2[linha] = true;
-						//String token = m.group();							
-						//System.out.println(token);					
-					}	
+						// String token = m.group();
+						// System.out.println(token);
+					}
 				}
-			}		
+			}
 			linha++;
-			curLine = txtBuffer.readLine();	//próxima linha
-		}					
+			curLine = txtBuffer.readLine(); // próxima linha
+		}
 		txtBuffer.close();
 		txtFile.close();
-		this.vetItemsetX = this.vetItemsetX.substring(0, 0);		
+		this.vetItemsetX = this.vetItemsetX.substring(0, 0);
 	}
-	
-	//P3
-	public void escreveArquivoSemRedundancia() throws IOException{	
+
+	// P3
+	public void escreveArquivoSemRedundancia() throws IOException {
 		int i = 0;
 		FileReader txtFile = null;
 		BufferedReader txtBuffer = null;
 		String curLine = null;
-				
+
 		try {
 			txtFile = new FileReader(this.mkdfile);
 			txtBuffer = new BufferedReader(txtFile);
-			curLine = txtBuffer.readLine();	
-			
+			curLine = txtBuffer.readLine();
+
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();	
+			e.printStackTrace();
 		}
-		
-		FileWriter fw = new FileWriter(this.arquivoFinal , true );
-		BufferedWriter bw = new BufferedWriter( fw );
-		
-		/*Pecorre todo o arquivo e salva em mapPalavras os antesscessores encontrados*/	
-		while(curLine != null){			
-			if(this.Array2[i] == false){
-				//System.out.println(curLine);
+
+		FileWriter fw = new FileWriter(this.arquivoFinal, true);
+		BufferedWriter bw = new BufferedWriter(fw);
+
+		/*
+		 * Pecorre todo o arquivo e salva em mapPalavras os antesscessores
+		 * encontrados
+		 */
+		while (curLine != null) {
+			if (this.Array2[i] == false) {
+				// System.out.println(curLine);
 				bw.write(this.nomeRegra + " <- " + curLine.split("#@")[1]);
-				bw.newLine();	//quebra de linha			
-			}			
+				bw.newLine(); // quebra de linha
+			}
 			i++;
-			curLine = txtBuffer.readLine();	//próxima linha
-		}			
-		txtFile.close();		
-		bw.close(); //fecha os recursos
+			curLine = txtBuffer.readLine(); // próxima linha
+		}
+		txtFile.close();
+		bw.close(); // fecha os recursos
 		fw.close();
 	}
-	
-}
 
+}
 
 /*
  * 
- * Artigo explicando método Static: 
- * * (http://www.guj.com.br/articles/121)
- * * (http://www.javaprogressivo.net/2012/10/static-Usando-membros-estaticos-em-Java.html)
- *Site auxilia o uso de expressão regular:  
- * * (http://regexr.com/)
- * 
- * 
- */ 
-		 
+ * Artigo explicando método Static: * (http://www.guj.com.br/articles/121) *
+ * (http
+ * ://www.javaprogressivo.net/2012/10/static-Usando-membros-estaticos-em-Java
+ * .html)Site auxilia o uso de expressão regular: * (http://regexr.com/)
+ */
